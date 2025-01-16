@@ -9,6 +9,15 @@ p {
   color: white;
 }
 
-.center {
+.container {
   text-align:center;
+  display: inline-block;
+
+}
+.child{
+  width: 70%;
+}
+.childsidebar{
+  width: 30%;
+  float: left;
 }
