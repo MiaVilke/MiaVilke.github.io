@@ -16,9 +16,9 @@ p {
 }
 
 .grid-container {
-  display: grid;
+  display: inline-grid;
   margin-left:35px;
-  column-gap: 30px;
+  column-gap: 10px;
 }
 
 .title{
@@ -34,5 +34,5 @@ p {
 }
 .child-side{
   border: 3px solid #fff;
-  width:40px;
+  width:100px;
 }
