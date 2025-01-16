@@ -31,6 +31,7 @@ p {
 
 .child-main{
   border: 3px solid #93ffb4;
+  width: 400px;
 }
 .child-side{
   border: 3px solid #fff;
