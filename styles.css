@@ -9,22 +9,28 @@ p {
   color: white;
 }
 
+@font-face {
+  font-family: 'FaithCollapsing'; /*a name to be used later*/
+  src: url('fonts/Faith Collapsing.ttf'); /*URL to font*/
+}
+
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
-  margin-left:30px
+  margin-left:35px
 
 }
 
 .title{
   text-align:center;
   border: 3px solid #fff;
+  font-family: 'FaithCollapsing';
+
 }
 
 .child-main{
   border: 3px solid #93ffb4;
-  width:70%
 }
 .child-side{
   border: 3px solid #fff;
