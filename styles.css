@@ -20,4 +20,5 @@ p {
 .childsidebar{
   width: 30%;
   float: left;
+  margin-left: 10%;
 }
