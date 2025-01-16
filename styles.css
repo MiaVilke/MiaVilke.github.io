@@ -24,7 +24,6 @@ p {
 
 .title{
   text-align:center;
-  border: 3px solid #fff;
   font-family: 'FaithCollapsing';
   font-size: 30px;
 
@@ -32,6 +31,8 @@ p {
 
 .child-main{
   border: 3px solid #93ffb4;
+  text-align:center;
+
 }
 .child-side{
   border: 3px solid #fff;
