@@ -27,7 +27,7 @@ p {
   text-align:center;
   border: 3px solid #fff;
   font-family: 'FaithCollapsing';
-  font-size: 50px;
+  font-size: 30px;
 
 }
 
@@ -36,5 +36,4 @@ p {
 }
 .child-side{
   border: 3px solid #fff;
-  width:30%
 }
