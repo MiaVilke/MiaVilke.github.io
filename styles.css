@@ -16,9 +16,13 @@ p {
 }
 .child{
   width: 70%;
+  border: 3px solid #fff;
+
 }
 .childsidebar{
   width: 30%;
   float: left;
   margin-left: 10%;
+  border: 3px solid #fff;
+
 }
