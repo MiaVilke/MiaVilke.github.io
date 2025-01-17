@@ -18,6 +18,10 @@ p {
   font-family: 'FaithCollapsing'; /*a name to be used later*/
   src: url('fonts/Faith Collapsing.ttf'); /*URL to font*/
 }
+@font-face {
+  font-family: 'Cristone'; /*a name to be used later*/
+  src: url('fonts/Cristone.ttf'); /*URL to font*/
+}
 
 .grid-container {
   display: grid;
@@ -45,4 +49,9 @@ p {
 
 #border{
   border: 7px ridge #D4B947;
+}
+
+#cristone{
+  font-family: 'Cristone';
+
 }
