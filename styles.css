@@ -1,6 +1,10 @@
 body {
   background-image: url('background/f45b5daa-ecf9-4965-bc592-103346039e07_512.png');
 }
+
+.stuffsbackground{
+  background-image: url('background/light-b6278e6e-de2a-42ae-9456-ab1122282a64_512.png');
+}
 h1 {
   color: white;
   
