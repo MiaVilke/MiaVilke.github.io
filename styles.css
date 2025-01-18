@@ -54,10 +54,8 @@ p {
 
 }
 .child-side{
-  border: 3px solid #fff;
-  border-top: 2px dashed #fff;
-	border-bottom: 1px dashed #fff;
-        box-shadow: inset 0 -1px 0 0 #fff, inset 0 1px 0 0 #fff, 0 1px 0 0 #fff, 0 -1px 0 0 #fff;
+  border: 3px dashed #fff;
+    box-shadow: inset 0 -1px 0 0 #fff, inset 0 1px 0 0 #fff, 0 1px 0 0 #fff, 0 -1px 0 0 #fff;
 	margin-bottom: 1px;
   
 }
@@ -68,5 +66,8 @@ p {
 
 #cristone{
   font-family: 'Cristone';
-  display: inline-block
+}
+
+#inline{
+  display: inline-block;
 }
