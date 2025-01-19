@@ -42,9 +42,10 @@ p {
   grid-template-columns: 200px 450px
 }
 
-.title{
+.header{
   text-align:center;
   font-family: 'FaithCollapsing';
+  font-size:30px;
 }
 
 .child-main{
@@ -77,4 +78,9 @@ p {
   align-items: center; /*horizontal centering*/
   justify-content: center; /*vertical centering*/
 
+}
+
+.vertcenter{
+  display: flex;
+  justify-content: center; /*vertical centering*/
 }
