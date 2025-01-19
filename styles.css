@@ -74,14 +74,14 @@ p {
 }
 
 .centerflex{
-  display: inline-flex;
+  display: flex;
   align-items: center; /*horizontal centering*/
   justify-content: center; /*vertical centering*/
 
 }
 
 .vertcenter{
-  display: flex;
+  display: inline-flex;
   justify-content: center;
   flex-direction: column;
 }
