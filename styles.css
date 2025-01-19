@@ -79,6 +79,7 @@ p {
 }
 
 .flex{
-  display: flex;
+  float: left;
+  clear: none; 
 
 }
