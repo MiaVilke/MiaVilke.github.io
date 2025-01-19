@@ -79,7 +79,8 @@ p {
 }
 
 .flex{
-  float: left;
-  clear: none; 
+  display: flex;
+  align-items: center; /*horizontal centering*/
+  justify-content: center; /*vertical centering*/
 
 }
