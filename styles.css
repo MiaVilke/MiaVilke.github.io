@@ -77,3 +77,8 @@ p {
 #inline{
   display: inline;
 }
+
+.flex{
+  display: flex;
+
+}
