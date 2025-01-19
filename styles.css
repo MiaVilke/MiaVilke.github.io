@@ -74,7 +74,7 @@ p {
 }
 
 .centerflex{
-  display: flex;
+  display: inline-flex;
   align-items: center; /*horizontal centering*/
   justify-content: center; /*vertical centering*/
 
