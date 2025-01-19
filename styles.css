@@ -81,6 +81,5 @@ p {
 }
 
 .vertcenter{
-  display: flex;
   justify-content: center; /*vertical centering*/
 }
