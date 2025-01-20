@@ -117,3 +117,9 @@ p {
   background: white;
 
 }
+
+.centerdiv{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
