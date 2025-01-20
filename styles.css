@@ -105,6 +105,8 @@ p {
   width:500px;
   height:100px;
   background:white;
+  column-count: 2;
+
 }
 
 #imageplaceholder{
