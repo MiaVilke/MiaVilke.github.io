@@ -127,3 +127,8 @@ p {
   margin:0 auto;
 }
 
+.absolutecenter{
+position: absolute;
+top: 50%;
+left: 50%;
+}
