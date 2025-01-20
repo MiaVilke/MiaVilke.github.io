@@ -113,6 +113,7 @@ p {
   height:120px;
   background: white;
   column-count: 2;
+  
 }
 
 .entrybody{
@@ -122,7 +123,7 @@ p {
 }
 
 .centerdiv{
-  display: block;
+  display: inline-block;
   margin:0 auto;
 }
 
