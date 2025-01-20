@@ -101,6 +101,12 @@ p {
   background:black;
 }
 
+#rectangle2{
+  width:500px;
+  height:100px;
+  background:white;
+}
+
 #imageplaceholder{
   width:200px;
   height:200px;
