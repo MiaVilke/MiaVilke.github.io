@@ -133,6 +133,7 @@ p {
 }
 
 .biobutton{
+  width:50px;
   background-image: url('images/biobutton.png');
 }
 #biobutton:hover {
