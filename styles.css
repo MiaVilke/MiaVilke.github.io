@@ -28,6 +28,11 @@ p {
   font-size: 12px;
 }
 
+#courier{
+  font-family: 'Courier New', monospace;
+
+}
+
 @font-face {
   font-family: 'FaithCollapsing'; /*a name to be used later*/
   src: url('fonts/Faith Collapsing.ttf'); /*URL to font*/
@@ -87,4 +92,28 @@ p {
   display: flex;
   justify-content: center;
   flex-direction: column;
+}
+
+#rectangle{
+  width:500px;
+  height:100px;
+  background:black;
+}
+
+#square{
+  width:200px;
+  height:200px;
+  background:black
+}
+.entrylist{
+  width:700px;
+  height:120px;
+  background: white;
+  column-count: 2;
+}
+
+.entrybody{
+  width: 275px;
+  background: white;
+
 }
