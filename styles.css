@@ -101,7 +101,7 @@ p {
   background:black;
 }
 
-#rectangle2{
+#entrylist{
   width:500px;
   height:100px;
   background:white;
@@ -115,14 +115,6 @@ p {
   background:black
 }
 
-
-.entrylist{
-  width:525px;
-  height:120px;
-  background: white;
-  column-count: 2;
-  
-}
 
 .entrybody{
   width: 315px;
