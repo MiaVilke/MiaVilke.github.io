@@ -28,13 +28,10 @@ h2 {
   font-size: 12px;
 }
 */
-#courier{
+#blackcourier{
   font-family: 'Courier New', monospace;
-
-}
-
-#black{
   color:black;
+
 }
 
 @font-face {
