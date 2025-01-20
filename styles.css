@@ -104,20 +104,22 @@ p {
   background:black;
 }
 
-#square{
+#imageplaceholder{
   width:200px;
   height:200px;
   background:black
 }
+
+
 .entrylist{
-  width:700px;
+  width:525px;
   height:120px;
   background: white;
   column-count: 2;
 }
 
 .entrybody{
-  width: 275px;
+  width: 315px;
   background: white;
 
 }
