@@ -182,7 +182,7 @@ p {
   margin: auto;
   display: block;
   width: 80%;
-  max-width: 700px;
+  max-width: 500px;
 }
 
 /* Caption of Modal Image */
@@ -190,7 +190,7 @@ p {
   margin: auto;
   display: block;
   width: 80%;
-  max-width: 700px;
+  max-width: 500px;
   text-align: center;
   color: #ccc;
   padding: 10px 0;
@@ -200,9 +200,9 @@ p {
 /* Add Animation */
 .modal-content, #caption {  
   -webkit-animation-name: zoom;
-  -webkit-animation-duration: 0.6s;
+  -webkit-animation-duration: 0.1s;
   animation-name: zoom;
-  animation-duration: 0.6s;
+  animation-duration: 0.1s;
 }
 
 @-webkit-keyframes zoom {
@@ -222,13 +222,11 @@ p {
   right: 35px;
   color: #f1f1f1;
   font-size: 40px;
-  font-weight: bold;
-  transition: 0.3s;
+  transition: 0.1s;
 }
 
 .close:hover,
 .close:focus {
-  color: #bbb;
   text-decoration: none;
   cursor: pointer;
 }
