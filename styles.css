@@ -153,10 +153,10 @@ p {
 
 #rectanglebackground{
   position: relative; /* or relative, depending on your layout */
-  top: 0; left: 50%;
+  top: 0; left: 25%;
   width: 35%; /* Adjust as needed */
   height: 100%; /* Adjust as needed */
   background-color: black;
   z-index: -1; 
-  padding-top: 10px;
+  padding-top: 20px;
 }
