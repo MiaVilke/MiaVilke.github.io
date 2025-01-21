@@ -160,3 +160,9 @@ p {
   z-index: -1; 
   padding-top: 20px;
 }
+
+#stack{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
