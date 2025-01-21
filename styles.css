@@ -100,10 +100,6 @@ p {
   flex-direction: column;
 }
 
-#headergif{
-  width:500px;
-}
-
 #entrylist{
   width:700px;
   column-count: 2;
