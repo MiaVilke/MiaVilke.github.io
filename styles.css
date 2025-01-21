@@ -104,9 +104,9 @@ p {
   width:700px;
   column-count: 2;
   padding-bottom:10px;
-  margin-top:75px;
-  margin-bottom:50px;
-  padding-right:5px;
+  margin-top:30px;
+  margin-bottom:30px;
+  padding-left:10px;
 
 
 }
@@ -149,4 +149,13 @@ p {
   display: flex; 
   justify-content: center;
   align-items: center;
+}
+
+#rectanglebackground{
+  position: relative; /* or relative, depending on your layout */
+  top: 0; left: 0;
+  width: 40%; /* Adjust as needed */
+  height: 100%; /* Adjust as needed */
+  background-color: black;
+  z-index: -1; 
 }
