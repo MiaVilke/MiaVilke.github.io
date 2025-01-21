@@ -144,3 +144,7 @@ p {
 .biobutton:hover {
   content: url('images/biobuttonhover.png');
 }
+
+#inlineblock{
+  display: inline-block;
+}
