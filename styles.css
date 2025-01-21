@@ -156,7 +156,7 @@ p {
   top: 0; left: 30%;
   width: 35%; /* Adjust as needed */
   height: 100%; /* Adjust as needed */
-  background-image: url('background/paperbackground1.png');
+  background-image: url('background/paperbackground2.png');
   z-index: -1; 
   padding-top: 20px;
 }
