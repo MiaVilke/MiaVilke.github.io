@@ -100,10 +100,8 @@ p {
   flex-direction: column;
 }
 
-#rectangle{
+#headergif{
   width:500px;
-  height:100px;
-  background:black;
 }
 
 #entrylist{
@@ -118,8 +116,10 @@ p {
 
 }
 
-#headergif{
+#imageplaceholder{
   width:200px;
+  height:200px;
+  background-color: black;
 }
 
 
