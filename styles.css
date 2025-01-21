@@ -146,4 +146,11 @@ p {
 
 #inlineblock{
   display: inline-block;
+  margin: 0 10px
+}
+
+.center{
+  display: flex; 
+  justify-content: center;
+  align-items: center;
 }
