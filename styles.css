@@ -179,7 +179,7 @@ p {
 
 #backarrow{
   position: fixed;
-  bottom:10%;
-  left:10%;
+  bottom:0;
+  left:0;
 
 }
