@@ -125,12 +125,15 @@ p {
 }
 
 .entry-item{
+
   font-weight: bold;
   font-size: 14px;
   line-height: 16px;
   color: black;
   margin-bottom: 10px;
+  font-family: 'Courier New', monospace;
 }
+
 .centerdiv{
   display: block;
   margin:0 auto;
