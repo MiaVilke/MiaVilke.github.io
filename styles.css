@@ -178,9 +178,8 @@ p {
 }
 
 #backarrow{
-  position: sticky;
-  display:inline;
-  top:90%;
-  left:20px;
+  position: fixed;
+  bottom:10%;
+  left:10%;
 
 }
