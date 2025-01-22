@@ -190,3 +190,10 @@ p {
   transform: scale(0.5);
    height: auto;
 }
+
+.backbutton{
+  font-family: 'FaithCollapsing';
+  text-align:center;
+  color: black;
+  font-size: 14px;
+}
