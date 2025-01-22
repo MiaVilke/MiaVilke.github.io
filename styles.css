@@ -183,5 +183,10 @@ p {
   position: fixed;
   bottom:0;
   left:0;
+}
 
+.bioimage{
+  position: fixed;
+   width:50%;
+   height: auto;
 }
