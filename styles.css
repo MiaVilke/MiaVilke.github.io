@@ -195,17 +195,17 @@ a.entry-item:visited{
   top: 0; left: 30%;
   width: 35%; 
   height: 100%, calc(100% - 45px);
-  background-image: url('background/paperbackground1.png');
+  background-image: url('background/paperbackground2.png');
   background-position: top, 0; 
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   z-index: -1; 
   padding-top: 10px;
 }
 
 .repeating-background {
-  background: url('background/paperbackground2.png') repeat;
-  margin-top:60px;
-  z-index:-2;
+  background: url('background/paperbackground1.png') no-repeat;
+  margin-top:20px;
+  z-index:-1;
 }
 
 
