@@ -178,11 +178,11 @@ a.entry-item:visited{
   top: 0; left: 30%;
   width: 35%; /* Adjust as needed */
   height: 100%; /* Adjust as needed */
-  background:
-    url('background/paperbackground1.png') no-repeat top/cover,
-    url('background/paperbackground2.png') repeat-y;
-  padding-top: 300px; /* Adjust to the height of your top image */
+  background-image: url('background/paperbackground1.png'), url('background/paperbackground2.png');
+  background-position: top, top; /* Position the top image at the top */
+  background-repeat: no-repeat, repeat; /* Ensure the top image does not repeat, but the second one does */
   z-index: -1; 
+  padding-top: 20px;
 }
 
 #stack{
