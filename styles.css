@@ -179,7 +179,7 @@ a.entry-item:visited{
   width: 35%; /* Adjust as needed */
   height: 100%; /* Adjust as needed */
   background-image: url('background/paperbackground1.png'), url('background/paperbackground2.png');
-  background-position: top, top; /* Position the top image at the top */
+  background-position: top, 0 45px;; /* Position the top image at the top */
   background-repeat: no-repeat, repeat; /* Ensure the top image does not repeat, but the second one does */
   z-index: -1; 
   padding-top: 20px,
