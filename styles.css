@@ -199,12 +199,13 @@ a.entry-item:visited{
   background-position: top, 0; 
   background-repeat: no-repeat;
   z-index: -1; 
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
 .repeating-background {
   background: url('background/paperbackground2.png') repeat;
-  margin-top:50px;
+  margin-top:60px;
+  z-index:-2;
 }
 
 
