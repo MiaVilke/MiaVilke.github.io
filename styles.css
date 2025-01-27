@@ -211,6 +211,15 @@ a.entry-item:visited{
   left:0;
 }
 
+#note{
+  position: fixed;
+  top:30px;
+  left:30px;
+  height:50px;
+  width:80px;
+  background-color: white;
+}
+
 .bioimage{
   position: fixed;
   transform: scale(0.5);
