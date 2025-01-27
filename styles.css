@@ -175,7 +175,6 @@ a.entry-item:visited{
 
 #rectanglebackground {
   position: relative;
-  top: 0; left: 30%;
   width: 35%; /* Adjust as needed */
   height: 100%; /* Adjust as needed */
     background: url('background/paperbackground1.png') no-repeat top/cover;
