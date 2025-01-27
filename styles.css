@@ -184,6 +184,7 @@ a.entry-item:visited{
   background-position: top, 0; 
   background-repeat: no-repeat;
   z-index: -1; 
+  padding-top: 10px;
 }
 
 .repeating-background {
