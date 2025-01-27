@@ -182,7 +182,7 @@ a.entry-item:visited{
   background-position: top, top; /* Position the top image at the top */
   background-repeat: no-repeat, repeat; /* Ensure the top image does not repeat, but the second one does */
   z-index: -1; 
-  padding-top: 20px, 80px;
+  padding-top: 20px,
 }
 
 #stack{
