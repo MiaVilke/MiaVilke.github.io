@@ -172,24 +172,35 @@ a.entry-item:visited{
   justify-content: center;
   align-items: center;
 }
-
+/*
 #rectanglebackground {
   position: relative;
   top: 0; left: 30%;
-  width: 35%; /* Adjust as needed */
-  height: 100%; /* Adjust as needed */
+  width: 35%; 
+  height: 100%; 
     background: url('background/paperbackground1.png') no-repeat top/cover;
 }
 
 .repeating-background {
   position: absolute;
-  top: 45px; /* 45 pixels offset from the top */
+  top: 45px; 
   left: 0; width: 100%;
-  height: calc(100% - 45px); /* Remaining height */
+  height: calc(100% - 45px); 
   background: url('background/paperbackground2.png') repeat;
-  background-position: 0 0; /* Start the repeating image from the top of this div */
-}
+  background-position: 0 0; /* Start the repeating image from the top of this div 
+}*/
 
+#rectanglebackground{
+  position: relative; /* or relative, depending on your layout */
+  top: 0; left: 30%;
+  width: 35%; /* Adjust as needed */
+  height: 100%; /* Adjust as needed */
+  background-image: url('background/paperbackground1.png'), url('background/paperbackground2.png');
+  background-position: top, 0 45px; /* Position the top image at the top */
+  background-repeat: no-repeat, repeat; /* Ensure the top image does not repeat, but the second one does */
+  z-index: -1; 
+  padding-top: 20px;
+}
 
 
 
