@@ -180,7 +180,7 @@ a.entry-item:visited{
   top: 0; left: 30%;
   width: 35%; 
   height: 100%;
-  background-image: url('background/paperbackground1.png');
+  background-image: url('background/paperbackgroundtop.png');
   background-position: top, 0; 
   background-repeat: no-repeat;
   z-index: -1; 
