@@ -182,7 +182,6 @@ a.entry-item:visited{
     url('background/paperbackground1.png') no-repeat top/cover,
     url('background/paperbackground2.png') repeat-y;
   padding-top: 300px; /* Adjust to the height of your top image */
-  box-sizing: border-box; /* Ensure padding doesn't affect overall height */
   z-index: -1; 
   padding-top: 20px;
 }
