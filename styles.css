@@ -204,7 +204,9 @@ a.entry-item:visited{
 }
 
 .repeating-background {
+  position: relative;
   background: url('background/paperbackground2.png') repeat;
+  top: 50px;
   margin-top:60px;
   z-index:-2;
 }
