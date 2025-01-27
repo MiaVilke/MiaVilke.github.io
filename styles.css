@@ -181,7 +181,6 @@ a.entry-item:visited{
   background-image: url('background/paperbackground1.png'), url('background/paperbackground2.png');
   background-position: top, top; /* Position the top image at the top */
   background-repeat: no-repeat, repeat; /* Ensure the top image does not repeat, but the second one does */
-  background-size: cover, auto; /* Cover the top image and let the second one tile naturally */
   z-index: -1; 
   padding-top: 20px;
 }
