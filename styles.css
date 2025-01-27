@@ -173,7 +173,7 @@ a.entry-item:visited{
   align-items: center;
 }
 
-.rectanglebackground {
+#rectanglebackground {
   position: relative;
   top: 0; left: 30%;
   width: 35%; /* Adjust as needed */
