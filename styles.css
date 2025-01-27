@@ -179,6 +179,8 @@ a.entry-item:visited{
   width: 35%; /* Adjust as needed */
   height: 100%; /* Adjust as needed */
     background: url('background/paperbackground1.png') no-repeat top/cover;
+    z-index: -1; 
+
 }
 
 .repeating-background {
@@ -188,6 +190,8 @@ a.entry-item:visited{
   height: calc(100% - 45px); /* Remaining height */
   background: url('background/paperbackground2.png') repeat;
   background-position: 0 0; /* Start the repeating image from the top of this div */
+  z-index: -2; 
+
 }
 
 
