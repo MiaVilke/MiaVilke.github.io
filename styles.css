@@ -183,7 +183,6 @@ a.entry-item:visited{
     url('background/paperbackground2.png') repeat-y;
   padding-top: 300px; /* Adjust to the height of your top image */
   z-index: -1; 
-  padding-top: 20px;
 }
 
 #stack{
