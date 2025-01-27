@@ -175,8 +175,10 @@ a.entry-item:visited{
 
 .rectanglebackground {
   position: relative;
-  width: 100%; height: 100vh; /* Adjust height as needed */
-  background: url('background/paperbackground1.png') no-repeat top/cover;
+  top: 0; left: 30%;
+  width: 35%; /* Adjust as needed */
+  height: 100%; /* Adjust as needed */
+    background: url('background/paperbackground1.png') no-repeat top/cover;
 }
 
 .repeating-background {
@@ -187,6 +189,7 @@ a.entry-item:visited{
   background: url('background/paperbackground2.png') repeat;
   background-position: 0 0; /* Start the repeating image from the top of this div */
 }
+
 
 
 
