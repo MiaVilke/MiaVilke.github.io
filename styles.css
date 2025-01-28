@@ -213,9 +213,9 @@ a.entry-item:visited{
 }
 
 #note{
-  position: fixed;
+  position: relative;
   top:15%;
-  left:5%;
+  left:4%;
   height:120px;
   width:160px;
   background-color: white;
