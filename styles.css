@@ -222,6 +222,7 @@ a.entry-item:visited{
   box-shadow: 15 10px 10px black;
   transform: rotate(3deg);
   padding:10px;
+  box-shadow: 0 10px 6px -6px black;
 }
 
 .bioimage{
