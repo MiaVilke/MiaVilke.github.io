@@ -227,7 +227,8 @@ a.entry-item:visited{
   height:120px;
   width:160px;
   background-color: white;
-  box-shadow: 0px 10px 7px 0px black;
+  box-shadow: 0px 10px 7px 0px rgba(0, 0, 0, 0.5);
+  
   padding:10px;
   z-index:-3;
 }
