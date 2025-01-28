@@ -220,8 +220,8 @@ a.entry-item:visited{
   width:160px;
   background-color: white;
   box-shadow: 0 15 10px 0px black;
-  transform: rotate(3deg);
   padding:10px;
+  z-index:-3;
 }
 
 .bioimage{
