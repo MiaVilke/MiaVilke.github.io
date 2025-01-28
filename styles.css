@@ -219,6 +219,8 @@ a.entry-item:visited{
   height:120px;
   width:160px;
   background-color: white;
+  box-shadow: 0 15px 10px #777;
+  transform: rotate(3deg);
 }
 
 .bioimage{
