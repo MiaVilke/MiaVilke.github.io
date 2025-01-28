@@ -255,8 +255,11 @@ a.entry-item:visited{
   display:grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: repeat(3, 1fr);
-  gap: 10px;
+  gap: 2px 10px;
   margin: auto;
+  padding-left:30px;
+  padding-right:30px;
+
 }
 
 .item1{
