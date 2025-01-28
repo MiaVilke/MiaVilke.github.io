@@ -9,7 +9,6 @@ body {
 .stuffsbackground{
   background-image: url('background/jfknasdlwsd.png');
   overflow: visible;
-  opacity:80%;
   z-index:-4
 }
 
