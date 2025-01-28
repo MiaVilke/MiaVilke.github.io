@@ -219,7 +219,7 @@ a.entry-item:visited{
   height:120px;
   width:160px;
   background-color: white;
-  box-shadow: 15 10px 10px black;
+  box-shadow: 0 15 10px 10px black;
   transform: rotate(3deg);
   padding:10px;
 }
