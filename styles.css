@@ -208,7 +208,7 @@ a.entry-item:visited{
 
 
 #stack{
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
 }
