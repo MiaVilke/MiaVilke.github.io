@@ -277,3 +277,10 @@ a.entry-item:visited{
   grid-column: 2;
   grid-row: 2;
 }
+
+.indexborder{
+    border-top: 30px solid transparent;
+    border-image-source: url(images/lace.png);
+    border-image-repeat: repeat;
+    border-image-slice: 30;
+}
