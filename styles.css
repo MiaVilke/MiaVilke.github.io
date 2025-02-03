@@ -293,7 +293,7 @@ a.entry-item:visited{
   background-repeat: repeat;
   background-size: 300px;
   width: auto;
-  height: 30px;
+  height: 40px;
   margin: 0;
-  padding-top: 30px;
+  padding: 0;
 }
