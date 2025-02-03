@@ -221,7 +221,6 @@ a.entry-item:visited{
 }
 
 #note{
-  position: absolute;
   top:15%;
   left:4%;
   height:120px;
@@ -295,5 +294,5 @@ a.entry-item:visited{
   width: auto;
   height: 40px;
   margin: 0;
-  padding: 0;
+  padding-top:50px;
 }
