@@ -279,7 +279,7 @@ a.entry-item:visited{
 }
 
 .indexborder{
-    position: relative ;
+    position: absolute;
     background-image: url('images/lace.png');
     background-repeat: repeat;
     background-size: 100px;
