@@ -291,9 +291,9 @@ a.entry-item:visited{
 .indexborderbottom{
   background-image: url('images/lacebottom.png');
   background-repeat: repeat;
-  background-size: 125px;
+  background-size: 200px;
   width: auto;
-  height: 85px;
+  height: 50px;
   margin: 0;
   padding: 0;
 
