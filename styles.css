@@ -279,7 +279,6 @@ a.entry-item:visited{
 }
 
 .indexborder{
-    position: absolute;
     background-image: url('images/lace.png');
     background-repeat: repeat;
     background-size: 125px;
@@ -287,4 +286,15 @@ a.entry-item:visited{
     height: 75px;
     margin: 0;
     padding: 0;
+}
+
+.indexborderbottom{
+  position: absolute;
+  background-image: url('images/lace.png');
+  background-repeat: repeat;
+  background-size: 100px;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
