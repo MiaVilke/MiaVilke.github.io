@@ -299,5 +299,5 @@ a.entry-item:visited{
   position: fixed; /* Positions the element relative to the viewport */
   bottom: 20px; /* Positions the element 20 pixels above the bottom of the viewport */
   left: 0; /* Sticks the element to the left of the viewport */
-  z-index: 1; /* Ensures it appears above other elements */
+  z-index: 5; /* Ensures it appears above other elements */
 }
