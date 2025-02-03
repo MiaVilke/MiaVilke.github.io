@@ -231,6 +231,8 @@ a.entry-item:visited{
   
   padding:2px 10px 10px 10px;
   z-index:-3;
+  border: 6px ridge #D4B947;
+  margin-left:15px;
 }
 
 .bioimage{
