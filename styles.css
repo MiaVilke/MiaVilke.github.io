@@ -325,7 +325,7 @@ a.entry-item:visited{
   border:3px solid black; 
 }
 
-#redhyperlink {
+a.redhyperlink {
 color: red;
 text-decoration:underline;
 font-size: 20px;
