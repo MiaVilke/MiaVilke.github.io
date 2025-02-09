@@ -339,7 +339,9 @@ font-family:Arial, Helvetica, sans-serif
 
 }
 
-
+#europelink{
+width:175px;
+}
 .linkcontainer {
   display: grid;
   float:right;
