@@ -297,8 +297,8 @@ a.entry-item:visited{
 }
 
 .sidebuttons{
-  position:relative;
-  right:10%; top:45%;
+  position:absolute;
+  right:200px; top:200px;
   width:400px;
   height:300px;
   border: 3px black;
