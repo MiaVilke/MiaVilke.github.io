@@ -365,7 +365,7 @@ font-family:Arial, Helvetica, sans-serif
 }
 
 .photoschild{
-  border: 1px solid black;
+/*  border: 1px solid black; */
 
 }
 
@@ -380,6 +380,6 @@ font-family:Arial, Helvetica, sans-serif
 .linkcontainer > div {
   padding: 10px;
   font-size: 30px;
-  border: 1px solid black;
+  /*border: 1px solid black; */
 }
 
