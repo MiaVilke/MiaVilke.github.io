@@ -296,10 +296,11 @@ a.entry-item:visited{
   width:400px;
   height:300px;
   border: 3px black;
+  z-index:5;
 }
 
 .sidebuttonone{
   width: 300px;
   height:100px;
-   color:black;
+  color:black;
 }
