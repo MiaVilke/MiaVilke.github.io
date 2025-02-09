@@ -356,9 +356,9 @@ font-family:Arial, Helvetica, sans-serif
 
 .photoscontainer{
   display:grid;
-  width: 95vw;
+  width: 100vw;
   height:90vh;
-  grid-template-columns: 45vw 45vw;
+  grid-template-columns: 45vw 555vw;
   grid-template-rows: auto;
 
 }
