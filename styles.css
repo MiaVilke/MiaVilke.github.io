@@ -358,7 +358,7 @@ font-family:Arial, Helvetica, sans-serif
   display:grid;
   width: 100vw;
   height:90vh;
-  grid-template-columns: 45vw 55vw;
+  grid-template-columns: 40vw 60vw;
   grid-template-rows: auto;
 
 }
