@@ -317,8 +317,8 @@ a.entry-item:visited{
 
 .photosmainpic{
   position:relative;
-  top: 15vh;
-  left:12vw;
+  top: 15%;
+  left:12%;
   height:400px;
   width:auto;
   border: 2px solid black;
