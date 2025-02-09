@@ -343,7 +343,7 @@ font-family:Arial, Helvetica, sans-serif
   display:grid;
   width: 95vw;
   height:90vh;
-  grid-template-columns: 35vw 605vw;
+  grid-template-columns: 35vw 65vw;
   grid-template-rows: auto auto;
 
 }
