@@ -323,6 +323,7 @@ a.entry-item:visited{
   left:12vw;
   height:400px;
   width:auto;
+  border: 2px solid black;
 }
 
 a.redhyperlink {
