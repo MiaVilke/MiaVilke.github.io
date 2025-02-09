@@ -310,11 +310,9 @@ a.entry-item:visited{
   height:50px;
   background: black;
   padding:15px;
-}
-#photosbutton{
   color:white;
   font-size:30px;
-  text-align:center
+  text-align:center;
 }
 
 .photosmainpic{
