@@ -23,24 +23,16 @@
 .photosbackground{
   background-color:#fff8c2;
 }
-#europebody{
-  background-image: url('background/jfknasdl.png');
-  display: flex;
-  background-color: #f0f0f0;
-  margin: 0;
-  z-index:-3;
-
-}
 
 .europebody{
-  background-image:  url('photography/europe/spookyhouse.png');
-  display: flex;
-
-  background-color: #f0f0f0;
-  background-size: cover;
-  z-index:-1;
+  background-image: url('background/jfknasdl.png');
+  z-index: -2; 
 }
+#europebody{
+  background-image: url('photography/europe/spookyhouse.png'); 
+  z-index: -1; 
 
+}
 
 h1 {
   color: white;
