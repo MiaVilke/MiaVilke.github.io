@@ -24,8 +24,14 @@
   background-color:#fff8c2;
 }
 
-.europebackground{
+.europebody{
   background-image: url('background/jfknasdl.png');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+  margin: 0;
 }
 
 h1 {
@@ -386,3 +392,27 @@ font-family:Arial, Helvetica, sans-serif
   /*border: 1px solid black; */
 }
 
+/*europe images*/
+.europegrid-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 90%;
+  max-width: 1200px;
+  margin: 20px auto;
+}
+.europegrid-item {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  padding: 10px;
+}
+.europegrid-item img {
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+  width: auto;
+}
