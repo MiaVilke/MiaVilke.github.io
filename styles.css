@@ -26,9 +26,6 @@
 #europebody{
   background-image: url('background/jfknasdl.png');
   display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
   background-color: #f0f0f0;
   margin: 0;
   z-index:-3;
@@ -38,11 +35,8 @@
 .europebody{
   background-image:  url('photography/europe/spookyhouse.png');
   display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
+
   background-color: #f0f0f0;
-  margin: 0;
   background-size: cover;
   z-index:-1;
 }
