@@ -392,14 +392,13 @@ font-family:Arial, Helvetica, sans-serif
 /*europe images*/
 .europegrid-container {
   display: flex;
-  flex-wrap: wrap;
+  grid-template-columns: repeat(2, 1fr); 
   gap: 10px;
   width: 90%;
   max-width: 300px;
   margin: 20px auto;
 }
 .europegrid-item {
-  flex: 1 1 45%; /* Flex grow, shrink, and basis to create two columns */
   display: flex;
   justify-content: center;
   align-items: center;
