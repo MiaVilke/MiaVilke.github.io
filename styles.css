@@ -25,13 +25,7 @@
 }
 
 .europebody{
-  background-image: url('background/jfknasdl.png');
-  z-index: -2; 
-}
-#europebody{
-  background-image: url('photography/europe/spookyhouse.png'); 
-  z-index: -1; 
-
+  background-image: url('background/jfknasdl.png'), url('photography/europe/spookyhouse.png');
 }
 
 h1 {
