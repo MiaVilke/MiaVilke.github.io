@@ -410,6 +410,5 @@ font-family:Arial, Helvetica, sans-serif
 
 .europegrid-item img { 
   height: auto; 
-  width: 100%; 
-  max-width: 220px; /* Adjusted for two-column fit */
+  max-width: 250px; /* Adjusted for two-column fit */
 }
