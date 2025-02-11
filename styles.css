@@ -29,7 +29,7 @@
   background-size: contain, auto;
   background-repeat: no-repeat, repeat;
   background-position: left bottom, center;
-  background-blend-mode: soft-light, normal;
+  background-blend-mode: overlay, normal;
 }
 
 h1 {
