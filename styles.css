@@ -426,17 +426,17 @@ font-family:Arial, Helvetica, sans-serif
 }
 
 .discovertext p{
-  line-height: 24px;
+  line-height: 26px;
   color:white;
   font-family: 'morris';
-  font-size: 20px;
+  font-size: 22px;
 }
 
 #bigred{
 color:red;
 text-decoration: none;
 font-family: 'morris';
-font-size:20px;
+font-size:22px;
 
 
 }
@@ -445,5 +445,5 @@ font-size:20px;
   color:red;
   text-decoration: underline;
   font-family: 'morris';
-    font-size:24px;
+    font-size:26px;
 }
