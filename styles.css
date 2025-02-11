@@ -432,20 +432,29 @@ font-family:Arial, Helvetica, sans-serif
   font-size: 22px;
 }
 
-
-
-.hover-word::before {
-  content: "voluptas"; /* The default word */
-  color:red;
+#bigred{
+color:red;
 text-decoration: none;
 font-family: 'morris';
 font-size:22px;
 
+
 }
-.hover-word:hover::before {
-  content: "videos"; /* The word on hover */
+
+#bigred:hover{
   color:red;
   text-decoration: underline;
   font-family: 'morris';
     font-size:28px;
+}
+
+.hover-word:hover::after {
+  content: "videos"; /* The word on hover */ 
+}
+.hover-word span:hover {
+  opacity: 0; /* Hide original word */
+}
+
+.hover-word span:hover::after {
+  opacity: 1; /* Show new word */
 }
