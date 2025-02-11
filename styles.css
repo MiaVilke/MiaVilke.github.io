@@ -5,7 +5,7 @@
 }
 
 .discoverbackground{
-  background-image: url('background/light-b6278e6e-de2a-42ae-9456-ab1122282a64_512.png');
+  background-image: url('background/ffejkndssdfcv.png');
 }
 
 .stuffsbackground{
@@ -412,4 +412,10 @@ font-family:Arial, Helvetica, sans-serif
   padding: 10px;
   font-size: 30px;
   /*border: 1px solid black; */
+}
+
+.discovertext{
+  width: 500px;
+  display: block;
+  margin:0 auto;
 }
