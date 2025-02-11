@@ -9,9 +9,8 @@
 }
 
 .stuffsbackground{
- /* background-image: url('background/jfknasdlwsd.png');
-  overflow: visible;*/
-  background-color: black;
+  background-image: url('background/blackgrain.png');
+  overflow: visible;
   z-index:-4;
 }
 
