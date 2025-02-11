@@ -231,8 +231,8 @@ a.entry-item:visited{
 
 #backarrow{
   position: fixed;
-  bottom:10px;
-  left:10px;
+  bottom:20px;
+  left:30px;
   max-width: 90px;
 }
 
