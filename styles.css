@@ -269,6 +269,12 @@ a.entry-item:visited{
   left:50%;
 }
 
+#backbuttontop{
+  position:absolute;
+  top:0;
+  left:50%;  
+}
+
 .backbutton2{
   font-family:Arial, Helvetica, sans-serif;
   text-align:center;
