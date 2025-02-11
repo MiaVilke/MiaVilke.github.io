@@ -9,8 +9,9 @@
 }
 
 .stuffsbackground{
-  background-image: url('background/jfknasdlwsd.png');
-  overflow: visible;
+ /* background-image: url('background/jfknasdlwsd.png');
+  overflow: visible;*/
+  background-color: black;
   z-index:-4;
 }
 
@@ -146,7 +147,7 @@ p {
   font-weight: bold;
   font-size: 14px;
   line-height: 16px;
-  color: black;
+  color: white;
   margin-bottom: 10px;
   font-family: 'Courier New', monospace;
   
@@ -155,7 +156,7 @@ a.entry-item{
   font-weight: bold;
   font-size: 14px;
   line-height: 16px;
-  color: black;
+  color: white;
   margin-bottom: 10px;
   font-family: 'Courier New', monospace;
 }
