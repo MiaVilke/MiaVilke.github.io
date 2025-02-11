@@ -67,6 +67,11 @@ p {
   src: url('fonts/Cristone.ttf'); /*URL to font*/
 }
 
+@font-face {
+  font-family: 'morris'; /*a name to be used later*/
+  src: url('fonts/MorrisRomanBlack.ttf'); /*URL to font*/
+}
+
 .grid-container {
   display: grid;
   float: center;
@@ -430,7 +435,7 @@ font-family:Arial, Helvetica, sans-serif
 #bigred{
 color:red;
 text-decoration: none;
-font-family: Arial, Helvetica, sans-serif;
+font-family: 'morris';
 font-size:20px;
 
 
@@ -439,6 +444,6 @@ font-size:20px;
 #bigred:hover{
   color:red;
   text-decoration: underline;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size:24px;
+  font-family: 'morris';
+    font-size:24px;
 }
