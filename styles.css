@@ -432,25 +432,20 @@ font-family:Arial, Helvetica, sans-serif
   font-size: 22px;
 }
 
-#bigred{
-color:red;
+
+
+.hover-word::before {
+  content: "voluptas"; /* The default word */
+  color:red;
 text-decoration: none;
 font-family: 'morris';
 font-size:22px;
 
-
 }
-
-#bigred:hover{
+.hover-word:hover::before {
+  content: "videos"; /* The word on hover */
   color:red;
   text-decoration: underline;
   font-family: 'morris';
     font-size:28px;
-}
-
-.hover-word::before {
-  content: "voluptas"; /* The default word */
-}
-.hover-word:hover::before {
-  content: "videos"; /* The word on hover */
 }
