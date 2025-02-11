@@ -5,7 +5,7 @@
 }
 
 .discoverbackground{
-  background-image: url('background/ffejkndssdfcv.png');
+  background-image: url('background/original_30258d3464fefd79bc5e8ff693e959a9.jpg');
 }
 
 .stuffsbackground{
@@ -451,7 +451,7 @@ font-family:Arial, Helvetica, sans-serif
 }
 
 .word::before {
-  content: "word"; /* The original word */
+  content: "voluptas"; /* The original word */
   color:red;
 text-decoration: none;
 font-family: 'morris';
