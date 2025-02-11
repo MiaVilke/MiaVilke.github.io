@@ -12,6 +12,8 @@
   background-image: url('background/blackgrain2.png');
   overflow: visible;
   z-index:-4;
+  background-color:black;
+
 }
 
 .biobackground{
