@@ -339,7 +339,7 @@ a.entry-item:visited{
 a.sidebuttonone{
   display: flex;
   width: 175px;
-  height:30px;
+  height:40px;
   background: black;
   padding:15px;
   color:white;
@@ -352,7 +352,7 @@ a.sidebuttonone{
 a.sidebuttonone:visited{
   display: flex;
   width: 175px;
-  height:35px;
+  height:40px;
   background: black;
   padding:15px;
   color:white;
