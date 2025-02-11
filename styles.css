@@ -270,7 +270,7 @@ a.entry-item:visited{
 .twoxthreegrid{
   display:grid;
   width:315px;
-  gap: 2px 10px;
+  gap: 10px 10px;
   margin: auto;
   padding-left:30px;
   padding-right:30px;
@@ -280,7 +280,7 @@ a.entry-item:visited{
 .item1{
   grid-column: 1;
   grid-row: 1;
-  align-self: end;
+  align-self: center;
 
 }
 .item2{
