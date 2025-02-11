@@ -432,21 +432,21 @@ font-family:Arial, Helvetica, sans-serif
   font-size: 22px;
 }
 
-.hover-word span {
-  position: relative;
-}
-.hover-word span::after {
-  content: "replacement"; /* New word on hover */
-  position: absolute;
-  left: 0;
-  right: 0;
-  opacity: 0;
+
+
+.word::after {
+  content: "replacement"; /* The new word */
+  display: none;
 }
 
-.hover-word span:hover {
-  opacity: 0; /* Hide original word */
+.word:hover::after {
+  display: inline;
 }
 
-.hover-word span:hover::after {
-  opacity: 1; /* Show new word */
+.word:hover::before {
+  display: none;
+}
+
+.word::before {
+  content: "word"; /* The original word */
 }
