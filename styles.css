@@ -445,5 +445,12 @@ font-size:22px;
   color:red;
   text-decoration: underline;
   font-family: 'morris';
-    font-size:26px;
+    font-size:28px;
+}
+
+.hover-word::before {
+  content: "voluptas"; /* The default word */
+}
+.hover-word:hover::before {
+  content: "videos"; /* The word on hover */
 }
