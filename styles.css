@@ -201,8 +201,8 @@ a.entry-item:visited{
 
 #rectanglebackground{
   position: relative;
-  top: 0; left: 30%;
-  width: 35%; 
+  top: 0; left: 33%;
+  width: 33%; 
   height: 100%;
   background-image: url('background/paperbackgroundtop.png');
   background-position: top, 0; 
