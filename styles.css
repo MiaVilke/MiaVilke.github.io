@@ -26,7 +26,7 @@
 
 .europebody{
   background-image: url('photography/europe/spookyhouse.png'), url('background/jfknasdl.png');
-  background-size: cover, auto ; /* 'cover' for the overlay, 'contain' for the base */
+  background-size: contain, auto ; /* 'cover' for the overlay, 'contain' for the base */
   background-repeat: no-repeat, repeat; /* Prevents repeating the images */
   background-position: center, center; /* Centers both images */
 }
