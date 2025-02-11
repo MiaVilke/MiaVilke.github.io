@@ -1,26 +1,27 @@
 <!DOCTYPE html>
 <html>
     <style>
+
         .europegrid-container {
             display: flex;
-            flex-wrap: wrap; /* Allows items to wrap to the next line */
-            gap: 10px; /* Adds space between grid items */
-            width: 90%;
-            max-width: 600px; /* Adjust as needed */
-            margin: 20px auto;
+            flex-wrap: wrap;
+            gap: 10px; /* Adds 10px gaps between photos */
+            max-width: 800px; /* Wraps to second column after 800px */
+            margin: 20px auto; /* Centers the container */
         }
         .europegrid-item {
-            flex-basis: calc(50% - 10px); /* Two columns with space between */
+            flex-basis: calc(50% - 10px); /* Ensures two columns with gap */
+            flex-grow: 1;
             display: flex;
             justify-content: center;
             align-items: center;
-            border: 6px solid #ccc;
+            border: 1px solid #ccc;
             background-color: #fff;
             box-sizing: border-box; /* Includes padding and border in the element's total width and height */
         }
         .europegrid-item img {
             height: auto;
-            width: 100%; /* Ensure the image fits within the grid item */
+            width: 100%; /* Ensures the image fits within the grid item */
             max-width: 100%;
         }
 
