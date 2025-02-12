@@ -467,9 +467,9 @@ font-family:Arial, Helvetica, sans-serif
 }
 .keyone {
   position: fixed;
-  transform: scale(0.5);
   height: auto;
   top:50px; right:75px;
+  width:2300px;
   background-image: url("images/keys/key1.png"); /* Default image */
   background-size: cover;
   background-position: center;
@@ -477,4 +477,5 @@ font-family:Arial, Helvetica, sans-serif
 
 .word:hover ~ .keyone {
   background-image: url("images/keys/key1.gif"); /* Image when hovered */
+  z-index:2;
 }
