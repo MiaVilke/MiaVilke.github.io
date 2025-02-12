@@ -424,9 +424,9 @@ font-family:Arial, Helvetica, sans-serif
   width: 400px;
   display: block;
   margin:0 auto;
-  position:relative;
-  left:30vw;
-  top:30vh;
+  position:absolute;
+  left:30;
+  top:30;
 }
 
 .discovertext p{
