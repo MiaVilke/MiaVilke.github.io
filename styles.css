@@ -469,13 +469,13 @@ font-family:Arial, Helvetica, sans-serif
 .keyone {
   position: fixed;
   height: auto;
-  top:350px; right:250px;
+  top:50px; right:50px;
   transform: scale(0.85);
 }
 .keytwo {
   position: fixed;
   height: auto;
-  top:50px; right:280px;
+  top:290px; right:120px;
   transform: scale(0.85);
 }
 .keythree {
@@ -489,5 +489,5 @@ font-family:Arial, Helvetica, sans-serif
   position: fixed;
   height: auto;
   top:250px; right:475px;
-  transform: scale(0.85);
+  transform: scale(0.5);
 }
