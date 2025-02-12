@@ -1,6 +1,20 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <script>
+      const hoverWords = document.querySelectorAll(".word");
+      const imageContainer = document.querySelector(".keyone");
+
+hoverWords.forEach(word => {
+  word.addEventListener("mouseenter", () => {
+    imageContainer.style.backgroundImage = `url(${word.dataset.image})`;
+  });
+  
+  word.addEventListener("mouseleave", () => {
+    imageContainer.style.backgroundImage = `url('images/keys/key1.png')`; // Reset on hover out
+  });
+});
+    </script>
     <title>STUFFS</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/x-icon" href="images/Gort-Gorts-Icons-Vol4-Plump-N-dapper.32.png">
