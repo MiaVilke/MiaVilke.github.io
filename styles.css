@@ -469,7 +469,14 @@ font-family:Arial, Helvetica, sans-serif
 .keyone {
   position: fixed;
   height: auto;
-  top:50px; right:125px;
+  top:50px; right:75px;
+  transform: scale(0.75);
+}
+
+.keythree {
+  position: fixed;
+  height: auto;
+  top:50px; right:280px;
   transform: scale(0.75);
 }
 
