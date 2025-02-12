@@ -470,24 +470,20 @@ font-family:Arial, Helvetica, sans-serif
   position: fixed;
   height: auto;
   top:50px; right:50px;
-  transform: scale(0.85);
 }
 .keytwo {
   position: fixed;
   height: auto;
-  top:290px; right:120px;
-  transform: scale(0.85);
+  top:375px; right:120px;
 }
 .keythree {
   position: fixed;
   height: auto;
   top:50px; right:300px;
-  transform: scale(0.85);
 }
 
 .keyfour {
   position: fixed;
   height: auto;
   top:250px; right:475px;
-  transform: scale(0.5);
 }
