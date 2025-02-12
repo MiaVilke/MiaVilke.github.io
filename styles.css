@@ -6,7 +6,7 @@
 
 .discoverbackground{
   background-image: url('background/discoverbackground.png');
-  background-size:contain;
+  background-size:cover;
 }
 
 .stuffsbackground{
