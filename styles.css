@@ -5,7 +5,7 @@
 }
 
 .discoverbackground{
-  background-image: url('background/original_30258d3464fefd79bc5e8ff693e959a9.jpg');
+  background-image: url('background/discoverbackground.png');
 }
 
 .stuffsbackground{
@@ -427,7 +427,7 @@ font-family:Arial, Helvetica, sans-serif
 
 .discovertext p{
   line-height: 26px;
-  color:white;
+  color:black;
   font-family: 'morris';
   font-size: 22px;
 }
