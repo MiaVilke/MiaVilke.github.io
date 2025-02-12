@@ -442,7 +442,7 @@ font-family:Arial, Helvetica, sans-serif
 .word::after {
   content: "video"; /* The new word */
   display: none;
-  color:red;
+  color:#ce0000;
   font-family: 'morris';
   font-size:30px;
   text-shadow: 0px 0px 2px rgba(255, 0, 0, 0.75);
@@ -459,7 +459,7 @@ font-family:Arial, Helvetica, sans-serif
 
 .word::before {
   content: "voluptas"; /* The original word */
-  color:red;
+  color:#ce0000;
   text-decoration: none;
   font-family: 'morris';
   font-size:22px;
