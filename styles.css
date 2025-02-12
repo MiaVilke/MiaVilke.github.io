@@ -470,12 +470,4 @@ font-family:Arial, Helvetica, sans-serif
   height: auto;
   top:50px; right:75px;
   width:300px;
-  background-image: url("images/keys/key1.png"); /* Default image */
-  background-size: cover;
-  background-position: center;
-}
-
-.word:hover ~ .keyone {
-  background-image: url("images/keys/key1.gif"); /* Image when hovered */
-  z-index:2;
 }
