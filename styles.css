@@ -468,7 +468,7 @@ font-family:Arial, Helvetica, sans-serif
 .keyone {
   position: fixed;
   height: auto;
-  top:50px; right:175px;
+  top:50px; right:125px;
   transform: scale(0.75);
 }
 
