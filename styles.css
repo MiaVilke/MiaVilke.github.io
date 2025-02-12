@@ -475,7 +475,7 @@ font-family:Arial, Helvetica, sans-serif
 .keytwo {
   position: fixed;
   height: auto;
-  top:390px; right:120px;
+  top:390px; right:140px;
   transform: scale(0.9);
 }
 .keythree {
