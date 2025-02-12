@@ -3,7 +3,12 @@
   <head>
     
     <script>
-      
+      // Preload images
+      const image1 = new Image();
+        const image2 = new Image();
+        image1.src = 'images/keys/key1.png';
+        image2.src = 'images/keys/key1_5.gif';
+
       function changeImage(isHovered) {
             const image = document.getElementById('dynamic-image');
             if (isHovered) {
