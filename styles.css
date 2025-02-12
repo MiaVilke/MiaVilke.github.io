@@ -471,3 +471,10 @@ font-family:Arial, Helvetica, sans-serif
   top:50px; right:175px;
   transform: scale(0.75);
 }
+
+.keyfour {
+  position: fixed;
+  height: auto;
+  bottom:50px; right:375px;
+  transform: scale(0.75);
+}
