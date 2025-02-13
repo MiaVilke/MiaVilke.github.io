@@ -482,7 +482,7 @@ font-family:Arial, Helvetica, sans-serif
   display: none;
 }
 .wordauricomos::before {
-  content: "voluptas"; /* The original word */
+  content: "auricomos"; /* The original word */
   color:#b30000;
   text-decoration: none;
   font-family: 'morris';
