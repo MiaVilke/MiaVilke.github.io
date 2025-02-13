@@ -466,8 +466,9 @@ font-family:Arial, Helvetica, sans-serif
   font-size:24px;
   text-shadow: 0px 0px 1.5px rgba(191, 0, 0, 0.9);
 }
-/*auricomos*/
-.wordauricomos::after {
+
+/*carpe*/
+.wordcarpe::after {
   content: "video"; /* The new word */
   display: none;
   color:#b30000;
@@ -476,14 +477,14 @@ font-family:Arial, Helvetica, sans-serif
   text-shadow: 0px 0px 1.5px rgba(191, 0, 0, 0.9);
 
 }
-.wordauricomos:hover::after {
+.wordcarpe:hover::after {
   display: inline;
 }
-.wordauricomos:hover::before {
+.wordcarpe:hover::before {
   display: none;
 }
-.wordauricomos::before {
-  content: "auricomos"; /* The original word */
+.wordcarpe::before {
+  content: "carpe"; /* The original word */
   color:#b30000;
   text-decoration: none;
   font-family: 'morris';
@@ -491,8 +492,56 @@ font-family:Arial, Helvetica, sans-serif
   text-shadow: 0px 0px 1.5px rgba(191, 0, 0, 0.9);
 }
 
-/*wordvirga*/
-.wordvirga::after {
+/*subire*/
+.wordsubire::after {
+  content: "video"; /* The new word */
+  display: none;
+  color:#b30000;
+  font-family: 'morris';
+  font-size:35px;
+  text-shadow: 0px 0px 1.5px rgba(191, 0, 0, 0.9);
+
+}
+.wordsubire:hover::after {
+  display: inline;
+}
+.wordsubire:hover::before {
+  display: none;
+}
+.wordsubire::before {
+  content: "subire"; /* The original word */
+  color:#b30000;
+  text-decoration: none;
+  font-family: 'morris';
+  font-size:24px;
+  text-shadow: 0px 0px 1.5px rgba(191, 0, 0, 0.9);
+}
+/*operta*/
+.wordoperta::after {
+  content: "video"; /* The new word */
+  display: none;
+  color:#b30000;
+  font-family: 'morris';
+  font-size:35px;
+  text-shadow: 0px 0px 1.5px rgba(191, 0, 0, 0.9);
+
+}
+.wordoperta:hover::after {
+  display: inline;
+}
+.wordoperta:hover::before {
+  display: none;
+}
+.wordoperta::before {
+  content: "operta"; /* The original word */
+  color:#b30000;
+  text-decoration: none;
+  font-family: 'morris';
+  font-size:24px;
+  text-shadow: 0px 0px 1.5px rgba(191, 0, 0, 0.9);
+}
+/*ramus*/
+.wordramus::after {
   content: "artists"; /* The new word */
   display: none;
   color:#b30000;
@@ -501,14 +550,14 @@ font-family:Arial, Helvetica, sans-serif
   text-shadow: 0px 0px 1.5px rgba(191, 0, 0, 0.9);
 
 }
-.wordvirga:hover::after {
+.wordramus:hover::after {
   display: inline;
 }
-.wordvirga:hover::before {
+.wordramus:hover::before {
   display: none;
 }
-.wordvirga::before {
-  content: "virga"; /* The original word */
+.wordramus::before {
+  content: "ramus"; /* The original word */
   color:#b30000;
   text-decoration: none;
   font-family: 'morris';
