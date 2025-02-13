@@ -434,7 +434,7 @@ font-family:Arial, Helvetica, sans-serif
   color:black;
   font-family: 'morris';
   font-size: 24px;
-  text-shadow: 0px 0px 1px rgba(0,0,0,0.85);
+  text-shadow: 0px 0px 1.5px rgba(0,0,0,0.9);
 
 }
 
@@ -445,7 +445,7 @@ font-family:Arial, Helvetica, sans-serif
   color:#b30000;
   font-family: 'morris';
   font-size:35px;
-  text-shadow: 0px 0px 1px rgba(191, 0, 0, 0.956);
+  text-shadow: 0px 0px 1.5px rgba(191, 0, 0, 0.9);
 
 }
 
@@ -463,7 +463,7 @@ font-family:Arial, Helvetica, sans-serif
   text-decoration: none;
   font-family: 'morris';
   font-size:24px;
-  text-shadow: 0px 0px 1px rgba(191, 0, 0, 0.956);
+  text-shadow: 0px 0px 1.5px rgba(191, 0, 0, 0.9);
 }
 /*auricomos*/
 .wordauricomos::after {
@@ -472,7 +472,7 @@ font-family:Arial, Helvetica, sans-serif
   color:#b30000;
   font-family: 'morris';
   font-size:35px;
-  text-shadow: 0px 0px 2px rgba(221, 0, 0, 0.75);
+  text-shadow: 0px 0px 1.5px rgba(191, 0, 0, 0.9);
 
 }
 .wordauricomos:hover::after {
@@ -487,7 +487,7 @@ font-family:Arial, Helvetica, sans-serif
   text-decoration: none;
   font-family: 'morris';
   font-size:24px;
-  text-shadow: 0px 0px 2px rgba(221, 0, 0, 0.75);
+  text-shadow: 0px 0px 1.5px rgba(191, 0, 0, 0.9);
 }
 
 /*wordvirga*/
@@ -497,7 +497,7 @@ font-family:Arial, Helvetica, sans-serif
   color:#b30000;
   font-family: 'morris';
   font-size:35px;
-  text-shadow: 0px 0px 2px rgba(221, 0, 0, 0.75);
+  text-shadow: 0px 0px 1.5px rgba(191, 0, 0, 0.9);
 
 }
 .wordvirga:hover::after {
@@ -512,7 +512,7 @@ font-family:Arial, Helvetica, sans-serif
   text-decoration: none;
   font-family: 'morris';
   font-size:24px;
-  text-shadow: 0px 0px 2px rgba(221, 0, 0, 0.75);
+  text-shadow: 0px 0px 1.5px rgba(191, 0, 0, 0.9);
 }
 
 .keyone {
@@ -543,6 +543,6 @@ font-family:Arial, Helvetica, sans-serif
 
 #red{
   color:#b30000;
-  text-shadow: 0px 0px 1px rgba(191, 0, 0, 0.956);
+  text-shadow: 0px 0px 1.5px rgba(191, 0, 0, 0.9);
 
 }
