@@ -612,3 +612,10 @@ border-style: 1.2px solid #cd3e053b;
   letter-spacing: 1px;
 
 }
+#incipitletter{
+  color:#c3351c;
+  font-family: 'camelot';
+  text-shadow:none;
+  font-size:32px;
+
+}
