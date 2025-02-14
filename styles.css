@@ -465,7 +465,7 @@ font-family:Arial, Helvetica, sans-serif
   left: 0;
   right: 0;
   height: 1.2px;
-  background-color: #4b2b197f;
+  background-color: #cd3e054f;
   mix-blend-mode: multiply; /* Blend mode here */
 }
 
@@ -477,7 +477,7 @@ font-family:Arial, Helvetica, sans-serif
 .wordcarpe::after {
   content: "video"; /* The new word */
   display: none;
-  color:#b30000;
+  color:#a92811;
   font-family: 'fenwick';
   font-size:35px;
   text-shadow: 0px 0px 1.75px rgba(191, 0, 0, 0.9);
@@ -491,7 +491,7 @@ font-family:Arial, Helvetica, sans-serif
 }
 .wordcarpe::before {
   content: "carpe"; /* The original word */
-  color:#b30000;
+  color:#a92811;
   text-decoration: none;
   font-family: 'fenwick';
   font-size:30px;
@@ -502,7 +502,7 @@ font-family:Arial, Helvetica, sans-serif
 .wordsubire::after {
   content: "video"; /* The new word */
   display: none;
-  color:#b30000;
+  color:#a92811;
   font-family: 'fenwick';
   font-size:35px;
   text-shadow: 0px 0px 1.75px rgba(191, 0, 0, 0.9);
@@ -516,7 +516,7 @@ font-family:Arial, Helvetica, sans-serif
 }
 .wordsubire::before {
   content: "subire"; /* The original word */
-  color:#b30000;
+  color:#a92811;
   text-decoration: none;
   font-family: 'fenwick';
   font-size:30px;
@@ -526,7 +526,7 @@ font-family:Arial, Helvetica, sans-serif
 .wordoperta::after {
   content: "video"; /* The new word */
   display: none;
-  color:#b30000;
+  color:#a92811;
   font-family: 'fenwick';
   font-size:35px;
   text-shadow: 0px 0px 1.75px rgba(191, 0, 0, 0.9);
@@ -540,7 +540,7 @@ font-family:Arial, Helvetica, sans-serif
 }
 .wordoperta::before {
   content: "operta"; /* The original word */
-  color:#b30000;
+  color:#a92811;
   text-decoration: none;
   font-family: 'fenwick';
   font-size:30px;
@@ -550,7 +550,7 @@ font-family:Arial, Helvetica, sans-serif
 .wordramus::after {
   content: "artists"; /* The new word */
   display: none;
-  color:#b30000;
+  color:#a92811;
   font-family: 'fenwick';
   font-size:35px;
   text-shadow: 0px 0px 1.75px rgba(191, 0, 0, 0.9);
@@ -564,7 +564,7 @@ font-family:Arial, Helvetica, sans-serif
 }
 .wordramus::before {
   content: "ramus"; /* The original word */
-  color:#b30000;
+  color:#a92811;
   text-decoration: none;
   font-family: 'fenwick';
   font-size:30px;
