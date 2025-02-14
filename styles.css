@@ -564,6 +564,8 @@ border-style: 1.2px solid #cd3e053b;
   font-family: 'fenwick';
   font-size:35px;
   text-shadow: 0px 0px 1.5px rgba(191, 0, 0, 0.9);
+  position: relative;
+  line-height: 0px;
 
 }
 .wordramus:hover::after {
