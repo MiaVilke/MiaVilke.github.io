@@ -438,38 +438,10 @@ font-family:Arial, Helvetica, sans-serif
   line-height: 36px;
   color:black;
   font-family: 'fenwick';
-  font-size: 24px;
+  font-size: 30px;
   text-shadow: 0px 0px 1.5px rgba(0,0,0,0.9);
   text-align:justify;
 
-}
-
-
-.word::after {
-  content: "video"; /* The new word */
-  display: none;
-  color:#b30000;
-  font-family: 'fenwick';
-  font-size:35px;
-  text-shadow: 0px 0px 1.5px rgba(191, 0, 0, 0.9);
-
-}
-
-.word:hover::after {
-  display: inline;
-}
-
-.word:hover::before {
-  display: none;
-}
-
-.word::before {
-  content: "voluptas"; /* The original word */
-  color:#b30000;
-  text-decoration: none;
-  font-family: 'fenwick';
-  font-size:24px;
-  text-shadow: 0px 0px 1.5px rgba(191, 0, 0, 0.9);
 }
 
 /*carpe*/
@@ -479,7 +451,7 @@ font-family:Arial, Helvetica, sans-serif
   color:#b30000;
   font-family: 'fenwick';
   font-size:35px;
-  text-shadow: 0px 0px 1.5px rgba(191, 0, 0, 0.9);
+  text-shadow: 0px 0px 1px rgba(191, 0, 0, 0.9);
 
 }
 .wordcarpe:hover::after {
@@ -493,8 +465,8 @@ font-family:Arial, Helvetica, sans-serif
   color:#b30000;
   text-decoration: none;
   font-family: 'fenwick';
-  font-size:24px;
-  text-shadow: 0px 0px 1.5px rgba(191, 0, 0, 0.9);
+  font-size:30px;
+  text-shadow: 0px 0px 1px rgba(191, 0, 0, 0.9);
 }
 
 /*subire*/
@@ -504,7 +476,7 @@ font-family:Arial, Helvetica, sans-serif
   color:#b30000;
   font-family: 'fenwick';
   font-size:35px;
-  text-shadow: 0px 0px 1.5px rgba(191, 0, 0, 0.9);
+  text-shadow: 0px 0px 1px rgba(191, 0, 0, 0.9);
 
 }
 .wordsubire:hover::after {
@@ -518,8 +490,8 @@ font-family:Arial, Helvetica, sans-serif
   color:#b30000;
   text-decoration: none;
   font-family: 'fenwick';
-  font-size:24px;
-  text-shadow: 0px 0px 1.5px rgba(191, 0, 0, 0.9);
+  font-size:30px;
+  text-shadow: 0px 0px 1px rgba(191, 0, 0, 0.9);
 }
 /*operta*/
 .wordoperta::after {
@@ -528,7 +500,7 @@ font-family:Arial, Helvetica, sans-serif
   color:#b30000;
   font-family: 'fenwick';
   font-size:35px;
-  text-shadow: 0px 0px 1.5px rgba(191, 0, 0, 0.9);
+  text-shadow: 0px 0px 1px rgba(191, 0, 0, 0.9);
 
 }
 .wordoperta:hover::after {
@@ -542,8 +514,8 @@ font-family:Arial, Helvetica, sans-serif
   color:#b30000;
   text-decoration: none;
   font-family: 'fenwick';
-  font-size:24px;
-  text-shadow: 0px 0px 1.5px rgba(191, 0, 0, 0.9);
+  font-size:30px;
+  text-shadow: 0px 0px 1px rgba(191, 0, 0, 0.9);
 }
 /*ramus*/
 .wordramus::after {
@@ -552,7 +524,7 @@ font-family:Arial, Helvetica, sans-serif
   color:#b30000;
   font-family: 'fenwick';
   font-size:35px;
-  text-shadow: 0px 0px 1.5px rgba(191, 0, 0, 0.9);
+  text-shadow: 0px 0px 1px rgba(191, 0, 0, 0.9);
 
 }
 .wordramus:hover::after {
@@ -566,8 +538,8 @@ font-family:Arial, Helvetica, sans-serif
   color:#b30000;
   text-decoration: none;
   font-family: 'fenwick';
-  font-size:24px;
-  text-shadow: 0px 0px 1.5px rgba(191, 0, 0, 0.9);
+  font-size:30px;
+  text-shadow: 0px 0px 1px rgba(191, 0, 0, 0.9);
 }
 
 .keyone {
