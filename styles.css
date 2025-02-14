@@ -72,6 +72,11 @@ p {
   font-family: 'morris'; /*a name to be used later*/
   src: url('fonts/MorrisRomanBlack.ttf'); /*URL to font*/
 }
+@font-face {
+  font-family: 'fenwick'; /*a name to be used later*/
+  src: url('fonts/FenwickWoodtype.ttf'); /*URL to font*/
+}
+
 
 .grid-container {
   display: grid;
@@ -432,7 +437,7 @@ font-family:Arial, Helvetica, sans-serif
 .discovertext p{
   line-height: 36px;
   color:black;
-  font-family: 'morris';
+  font-family: 'fenwick';
   font-size: 24px;
   text-shadow: 0px 0px 1.5px rgba(0,0,0,0.9);
   text-align:justify;
@@ -444,7 +449,7 @@ font-family:Arial, Helvetica, sans-serif
   content: "video"; /* The new word */
   display: none;
   color:#b30000;
-  font-family: 'morris';
+  font-family: 'fenwick';
   font-size:35px;
   text-shadow: 0px 0px 1.5px rgba(191, 0, 0, 0.9);
 
@@ -462,7 +467,7 @@ font-family:Arial, Helvetica, sans-serif
   content: "voluptas"; /* The original word */
   color:#b30000;
   text-decoration: none;
-  font-family: 'morris';
+  font-family: 'fenwick';
   font-size:24px;
   text-shadow: 0px 0px 1.5px rgba(191, 0, 0, 0.9);
 }
@@ -472,7 +477,7 @@ font-family:Arial, Helvetica, sans-serif
   content: "video"; /* The new word */
   display: none;
   color:#b30000;
-  font-family: 'morris';
+  font-family: 'fenwick';
   font-size:35px;
   text-shadow: 0px 0px 1.5px rgba(191, 0, 0, 0.9);
 
@@ -487,7 +492,7 @@ font-family:Arial, Helvetica, sans-serif
   content: "carpe"; /* The original word */
   color:#b30000;
   text-decoration: none;
-  font-family: 'morris';
+  font-family: 'fenwick';
   font-size:24px;
   text-shadow: 0px 0px 1.5px rgba(191, 0, 0, 0.9);
 }
@@ -497,7 +502,7 @@ font-family:Arial, Helvetica, sans-serif
   content: "video"; /* The new word */
   display: none;
   color:#b30000;
-  font-family: 'morris';
+  font-family: 'fenwick';
   font-size:35px;
   text-shadow: 0px 0px 1.5px rgba(191, 0, 0, 0.9);
 
@@ -512,7 +517,7 @@ font-family:Arial, Helvetica, sans-serif
   content: "subire"; /* The original word */
   color:#b30000;
   text-decoration: none;
-  font-family: 'morris';
+  font-family: 'fenwick';
   font-size:24px;
   text-shadow: 0px 0px 1.5px rgba(191, 0, 0, 0.9);
 }
@@ -521,7 +526,7 @@ font-family:Arial, Helvetica, sans-serif
   content: "video"; /* The new word */
   display: none;
   color:#b30000;
-  font-family: 'morris';
+  font-family: 'fenwick';
   font-size:35px;
   text-shadow: 0px 0px 1.5px rgba(191, 0, 0, 0.9);
 
@@ -536,7 +541,7 @@ font-family:Arial, Helvetica, sans-serif
   content: "operta"; /* The original word */
   color:#b30000;
   text-decoration: none;
-  font-family: 'morris';
+  font-family: 'fenwick';
   font-size:24px;
   text-shadow: 0px 0px 1.5px rgba(191, 0, 0, 0.9);
 }
@@ -545,7 +550,7 @@ font-family:Arial, Helvetica, sans-serif
   content: "artists"; /* The new word */
   display: none;
   color:#b30000;
-  font-family: 'morris';
+  font-family: 'fenwick';
   font-size:35px;
   text-shadow: 0px 0px 1.5px rgba(191, 0, 0, 0.9);
 
@@ -560,7 +565,7 @@ font-family:Arial, Helvetica, sans-serif
   content: "ramus"; /* The original word */
   color:#b30000;
   text-decoration: none;
-  font-family: 'morris';
+  font-family: 'fenwick';
   font-size:24px;
   text-shadow: 0px 0px 1.5px rgba(191, 0, 0, 0.9);
 }
