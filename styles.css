@@ -607,7 +607,7 @@ border-style: 1.2px solid #cd3e053b;
 
 #red{
   color:#c3351c;
-  text-shadow: 0px 0px 1.5px rgba(200, 32, 14, 0.9);
+  text-shadow: 0px 0px 0.5px rgba(200, 32, 14, 0.9);
   font-size:34px;
   letter-spacing: 1px;
 
