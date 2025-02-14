@@ -77,6 +77,11 @@ p {
   src: url('fonts/FenwickWoodtype.ttf'); /*URL to font*/
 }
 
+@font-face {
+  font-family: 'camelot'; /*a name to be used later*/
+  src: url('fonts/CamelotCaps.ttf'); /*URL to font*/
+}
+
 
 .grid-container {
   display: grid;
@@ -602,7 +607,6 @@ border-style: 1.2px solid #cd3e053b;
 
 #red{
   color:#c3351c;
-  font-family: 'cristone';
   text-shadow: 0px 0px 1.5px rgba(200, 32, 14, 0.9);
   font-size:26px;
   letter-spacing: 1px;
