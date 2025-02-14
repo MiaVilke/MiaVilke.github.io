@@ -446,7 +446,29 @@ font-family:Arial, Helvetica, sans-serif
 }
 
 .hover-text{
-  
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.line {
+  position: relative;
+  display: inline-block;
+}
+
+.line::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: #0b02007f;
+  mix-blend-mode: multiply; /* Blend mode here */
+}
+
+.line.underline {
+  text-decoration: underline;
 }
 
 .hover-text::before {
