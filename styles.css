@@ -445,6 +445,21 @@ font-family:Arial, Helvetica, sans-serif
 
 }
 
+.hover-text{
+  
+}
+
+.hover-text::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: #FF5733;
+  mix-blend-mode: multiply; /* Blend mode here */
+}
+
 /*carpe*/
 .wordcarpe::after {
   content: "video"; /* The new word */
