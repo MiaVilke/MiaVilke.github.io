@@ -462,23 +462,13 @@ font-family:Arial, Helvetica, sans-serif
   top: 0;
   left: 0;
   right: 0;
-  height: 2px;
+  height: 1px;
   background-color: #86573c7f;
   mix-blend-mode: multiply; /* Blend mode here */
 }
 
 .line.underline {
   text-decoration: underline;
-}
-
-.hover-text::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 2px;
-  mix-blend-mode: multiply; /* Blend mode here */
 }
 
 /*carpe*/
