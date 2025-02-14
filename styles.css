@@ -453,6 +453,8 @@ border-style: 1.2px solid #cd3e054f;
   position: relative;
   display: flex;
   flex-direction: column;
+  border-style: 1.2px solid #cd3e054f;
+
 }
 
 .line {
