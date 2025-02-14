@@ -13,9 +13,17 @@
             font-size: 24px;
             color: #333;
             position: relative;
+            display: flex;
+            flex-direction: column;
+            line-height: 1.5;
         }
 
-        .text::before {
+        .line {
+            position: relative;
+            display: inline-block;
+        }
+
+        .line::before {
             content: '';
             position: absolute;
             top: 0;
@@ -26,11 +34,13 @@
             mix-blend-mode: multiply; /* Blend mode here */
         }
 
-        .underline {
+        .line.underline {
             text-decoration: underline;
         }
     </style>
 </head>
 <body>
-    <p class="text underline">This is a sample text with an overline using blend mode.</p>
-</body>
+    <div class="text">
+        <span class="line">This is the first line of text with an overline using blend mode.</span>
+        <span class="line">This is the second line of text with an overline using blend mode.</span>
+        <span class="line">This is the third line of text with an overline using blend 
