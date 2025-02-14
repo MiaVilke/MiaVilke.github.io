@@ -5,10 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Text Decoration with Overline Blend Mode</title>
     <style>
-        body {
+body {
             background-color: #f0f0f0;
         }
-            .line {
+
+        .text {
+            font-size: 24px;
+            color: #333;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            line-height: 1.5;
+        }
+
+        .line {
             position: relative;
             display: inline-block;
         }
@@ -31,6 +41,6 @@
 </head>
 <body>
     <div class="text">
-        <span class="line">This is the first line of text with an overline using blend mode.<br>
-     This is the second line of text with an overline using blend mode.<br>
-        This is the third line of text with an overline using blend </span>
+        <span class="line">This is the first line of text with an overline using blend mode.</span>
+        <span class="line">This is the second line of text with an overline using blend mode.</span>
+        <span class="line">This is the third line of text with an overline using blend </span>
