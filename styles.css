@@ -427,6 +427,7 @@ font-family:Arial, Helvetica, sans-serif
 
 .discovertext{
   width: 390px;
+  display: block;
   margin:0 auto;
   position:fixed;
   left:10%;
