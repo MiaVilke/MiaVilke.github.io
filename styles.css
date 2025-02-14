@@ -453,12 +453,12 @@ font-family:Arial, Helvetica, sans-serif
 
 .line {
   position: relative;
-  display: inline-block;
+  display: inline;
 }
 
 .line::before {
   content: '';
-  position: inline;
+  position: absolute;
   top: 0;
   left: 0;
   right: 0;
