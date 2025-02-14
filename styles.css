@@ -447,7 +447,6 @@ font-family:Arial, Helvetica, sans-serif
 .hover-text{
   position: relative;
   display: flex;
-  flex-direction: column;
 }
 
 .line {
