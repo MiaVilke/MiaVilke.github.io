@@ -617,5 +617,6 @@ border-style: 1.2px solid #cd3e053b;
   font-family: 'camelot';
   text-shadow:none;
   font-size:38px;
+  vertical-align: sub;
 
 }
