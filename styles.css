@@ -432,7 +432,6 @@ font-family:Arial, Helvetica, sans-serif
   position:fixed;
   left:10%;
   top:10%;
-text-align: justify;
 border-style: 1.2px solid #cd3e054f;
 }
 
@@ -445,7 +444,8 @@ border-style: 1.2px solid #cd3e054f;
   word-spacing:-4px;
   word-break: break-all;
   padding-top:5px;
-  padding-bottom:-5px;
+  padding-bottom:-20px;
+  text-align: justify;
 
 }
 
@@ -603,7 +603,6 @@ border-style: 1.2px solid #cd3e054f;
 #red{
   color:#a92811;
   text-shadow: 0px 0px 1.5px rgba(173, 6, 6, 0.9);
-  font-family:'Cristone';
   font-size:26px;
   letter-spacing: 1px;
 
