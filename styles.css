@@ -432,7 +432,7 @@ font-family:Arial, Helvetica, sans-serif
   position:fixed;
   left:10%;
   top:10%;
-border-style: 1.2px solid #cd3e054f;
+border-style: 1.2px solid #cd3e053b;
 }
 
 .discovertext p{
@@ -453,7 +453,7 @@ border-style: 1.2px solid #cd3e054f;
   position: relative;
   display: flex;
   flex-direction: column;
-  border: 1.2px solid #cd3e054f;
+  border: 1.2px solid #cd3e053b;
 
 }
 
