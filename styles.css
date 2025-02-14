@@ -481,7 +481,7 @@ border-style: 1.2px solid #cd3e054f;
 .wordcarpe::after {
   content: "video"; /* The new word */
   display: none;
-  color:#a92811;
+  color:#c3351c;
   font-family: 'fenwick';
   font-size:35px;
   text-shadow: 0px 0px 1.75px rgba(191, 0, 0, 0.9);
@@ -495,7 +495,7 @@ border-style: 1.2px solid #cd3e054f;
 }
 .wordcarpe::before {
   content: "carpe"; /* The original word */
-  color:#a92811;
+  color:#c3351c;
   text-decoration: none;
   font-family: 'fenwick';
   font-size:30px;
@@ -506,7 +506,7 @@ border-style: 1.2px solid #cd3e054f;
 .wordsubire::after {
   content: "video"; /* The new word */
   display: none;
-  color:#a92811;
+  color:#c3351c;
   font-family: 'fenwick';
   font-size:35px;
   text-shadow: 0px 0px 1.75px rgba(191, 0, 0, 0.9);
@@ -520,7 +520,7 @@ border-style: 1.2px solid #cd3e054f;
 }
 .wordsubire::before {
   content: "subire"; /* The original word */
-  color:#a92811;
+  color:#c3351c;
   text-decoration: none;
   font-family: 'fenwick';
   font-size:30px;
@@ -530,7 +530,7 @@ border-style: 1.2px solid #cd3e054f;
 .wordoperta::after {
   content: "video"; /* The new word */
   display: none;
-  color:#a92811;
+  color:#c3351c;
   font-family: 'fenwick';
   font-size:35px;
   text-shadow: 0px 0px 1.75px rgba(191, 0, 0, 0.9);
@@ -544,7 +544,7 @@ border-style: 1.2px solid #cd3e054f;
 }
 .wordoperta::before {
   content: "operta"; /* The original word */
-  color:#a92811;
+  color:#c3351c;
   text-decoration: none;
   font-family: 'fenwick';
   font-size:30px;
@@ -554,7 +554,7 @@ border-style: 1.2px solid #cd3e054f;
 .wordramus::after {
   content: "artists"; /* The new word */
   display: none;
-  color:#a92811;
+  color:#c3351c;
   font-family: 'fenwick';
   font-size:35px;
   text-shadow: 0px 0px 1.75px rgba(191, 0, 0, 0.9);
@@ -568,7 +568,7 @@ border-style: 1.2px solid #cd3e054f;
 }
 .wordramus::before {
   content: "ramus"; /* The original word */
-  color:#a92811;
+  color:#c3351c;
   text-decoration: none;
   font-family: 'fenwick';
   font-size:30px;
@@ -601,7 +601,7 @@ border-style: 1.2px solid #cd3e054f;
 }
 
 #red{
-  color:#a92811;
+  color:#c3351c;
   font-family: 'cristone';
   text-shadow: 0px 0px 1.5px rgba(200, 32, 14, 0.9);
   font-size:26px;
