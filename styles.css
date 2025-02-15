@@ -219,12 +219,13 @@ a.entry-item:visited{
   position: relative;
   top: 0; left: 33%;
   width: 33%; 
-  height: 100%;
+  height: 800px;
   background-image: url('background/paperbackgroundtop.png');
   background-position: top, 0; 
   background-repeat: no-repeat;
   z-index: -1; 
   padding-top: 10px;
+  overflow-y:scroll;
 }
 
 .repeating-background {
