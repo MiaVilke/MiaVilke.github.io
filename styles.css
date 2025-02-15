@@ -215,18 +215,21 @@ a.entry-item:visited{
 }
 
 
-#rectanglebackground{
-  position: relative;
-  top: 0; left: 33%;
-  width: 33%; 
-  height: 800px;
+#rectanglebackground {
+  position: absolute; /* or relative */
+  top: 0;
+  left: 33%;
+  width: 33%;
+  height: 800px; /* Fixed height to enable scrolling */
   background-image: url('background/paperbackgroundtop.png');
-  background-position: top, 0; 
+  background-position: top, 0;
   background-repeat: no-repeat;
-  z-index: -1; 
+  z-index: -1;
   padding-top: 10px;
-  
+  overflow-y: auto; /* Enables vertical scrolling */
+  overflow-x: hidden; /* Prevents horizontal scrolling */
 }
+
 
 .repeating-background {
   position: relative;
