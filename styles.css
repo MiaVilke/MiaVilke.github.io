@@ -434,13 +434,13 @@ font-family:Arial, Helvetica, sans-serif
   width: 400px;
   margin:0 auto;
   position:fixed;
-  left:14%;
+  left:15%;
   top:13%;
 border-style: 1.2px solid #cd3e053b;
 }
 
 .discovertext p{
-  line-height: 30px;
+  line-height: 25px;
   color:black;
   font-family: 'fenwick';
   font-size: 30px;
