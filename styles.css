@@ -220,7 +220,7 @@ a.entry-item:visited{
   top: 0;
   left: 33%;
   width: 33%;
-  height: 600px; /* Fixed height to enable scrolling */
+  height: 650px; /* Fixed height to enable scrolling */
   background-image: url('background/paperbackgroundtop.png');
   background-position: top, 0;
   background-repeat: no-repeat;
@@ -228,6 +228,7 @@ a.entry-item:visited{
   padding-top: 10px;
   overflow-y: auto; /* Enables vertical scrolling */
   overflow-x: hidden; /* Prevents horizontal scrolling */
+  margin-top:100px;
 }
 
 
