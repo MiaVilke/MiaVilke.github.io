@@ -463,7 +463,8 @@ border-style: 1.2px solid #cd3e053b;
   position: relative;
   display: inline-block;
   padding-top: 8px;
-  word-break: keep-all;
+  white-space: nowrap; /* Prevents text from wrapping */
+  overflow: visible; /* Allows text to overflow */
 
 }
 
