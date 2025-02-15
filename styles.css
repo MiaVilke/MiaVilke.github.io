@@ -431,7 +431,7 @@ font-family:Arial, Helvetica, sans-serif
 }
 
 .discovertext{
-  width: 435px;
+  width: 420px;
   margin:0 auto;
   position:fixed;
   left:10%;
@@ -447,6 +447,7 @@ border-style: 1.2px solid #cd3e053b;
   text-shadow: 0px 0px 1.5px rgba(0,0,0,0.9);
   word-spacing:-4px;
   word-break: break-all;
+  letter-spacing:-1px;
 
 
 }
@@ -456,7 +457,6 @@ border-style: 1.2px solid #cd3e053b;
   display: flex;
   flex-direction: column;
   border: 1.2px solid #cd3e053b;
-  margin-top: -15px;
 
 }
 
@@ -616,7 +616,7 @@ border-style: 1.2px solid #cd3e053b;
   color:#c3351c;
   font-family: 'camelot';
   text-shadow:none;
-  font-size:42px;
+  font-size:45px;
   vertical-align: sub;
   letter-spacing:2px;
 
