@@ -225,7 +225,7 @@ a.entry-item:visited{
   background-repeat: no-repeat;
   z-index: -1; 
   padding-top: 10px;
-  overflow-y:scroll;
+  
 }
 
 .repeating-background {
@@ -234,6 +234,8 @@ a.entry-item:visited{
   top: 50px;
   margin-top:60px;
   z-index:-2;
+  overflow-y:scroll;
+
 }
 
 
