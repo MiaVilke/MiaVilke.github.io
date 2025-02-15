@@ -463,7 +463,7 @@ border-style: 1.2px solid #cd3e053b;
 .line {
   position: relative;
   display: inline-block;
-  margin-top: 8px;
+  margin-bottom: 8px;
 }
 
 .line::before {
