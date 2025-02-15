@@ -452,6 +452,9 @@ border-style: 1.2px solid #cd3e053b;
   padding-bottom:-20px;
   text-align: justify;
   vertical-align: bottom;
+  width: fit-content;
+  max-width: 100%;
+  font-size: clamp(12px, 2vw, 16px); /* Adjusts text size responsively */
 }
 
 .hover-text{
