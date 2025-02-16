@@ -149,7 +149,7 @@ p {
   background: white;
   padding:10px;
 }
-.entrylist p{
+.entrylist p a{
   width:175px;
   font-size: 12px;
   line-height: 20px;
