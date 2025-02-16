@@ -15,7 +15,7 @@
     <div class="centerflex">
       <img style="margin-top:20px;  width:600px;"; src="images/experiments.gif">
     </div>
-
+<div id="myDiv">
     <div id="entrylist">
       <p class="entry-library">LIBRARY</p>
       <a class="entry-item" href="stuffs.html#2025-01-29" onclick="scrollToOffset(event, '2025-01-29', 75)">01.29 <span class="arrow">></span></a>
@@ -25,9 +25,10 @@
       <a class="entry-item" href="stuffs.html#2025-01-12" onclick="scrollToOffset(event, '2025-01-12', 75)">01.12 <span class="arrow">></span></a>
       <a class="entry-item" href="stuffs.html#2025-01-11" onclick="scrollToOffset(event, '2025-01-11', 75)">01.11 <span class="arrow">></span></a>
     </div>
-
+</div>
+<div >
     <div id="entrylist">
-      <p class="entry-library2">&lt;&lt;</p>
+      <p class="entry-library2" onclick="fadeOut()">&lt;&lt;</p>
       <a class="entry-item" href="stuffs.html#2025-01-29" onclick="scrollToOffset(event, '2025-01-29', 75)">01.29 / dog animation<span class="arrow">></span></a>
       <a class="entry-item" href="stuffs.html#2025-01-27" onclick="scrollToOffset(event, '2025-01-27', 75)">01.27 / paper mache dog<span class="arrow">></span></a>
       <a class="entry-item" href="stuffs.html#2025-01-23" onclick="scrollToOffset(event, '2025-01-23', 75)">01.23 / sketches<span class="arrow">></span></a>
@@ -35,9 +36,12 @@
       <a class="entry-item" href="stuffs.html#2025-01-12" onclick="scrollToOffset(event, '2025-01-12', 75)">01.12 /pocket shrine<span class="arrow">></span></a>
       <a class="entry-item" href="stuffs.html#2025-01-11" onclick="scrollToOffset(event, '2025-01-11', 75)">01.11 / Gelli plate first experiments<span class="arrow">></span></a>
     </div>
-
-
-
+  </div>
+<script>
+  function fadeOut() {
+    document.getElementById("myDiv").style.opacity = "0";
+}
+</script>
 <a href="index.html">
   <img id="backarrow" src="images/finger1.png">
 </a>
