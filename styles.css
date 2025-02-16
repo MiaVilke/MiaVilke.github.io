@@ -139,7 +139,7 @@ p {
   padding: 8px 10px 0px 10px;
   background-color: #fff8c2;
   position:absolute;
-  left:4%;
+  left:2%;
   top:10%;
 
 }
@@ -356,7 +356,7 @@ a.entry-item:visited{
 
 .sidebuttons{
   position:absolute;
-  left:4%; top:80%;
+  left:2%; top:70%;
   width: 200px;
   height:300px;
   z-index:5;
