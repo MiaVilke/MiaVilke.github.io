@@ -5,12 +5,18 @@
     <link rel="stylesheet" href="styles.css">
     <script src="app.js"></script>
     <script>
-        function showDiv(divId) {
-            document.getElementById("firstDiv").classList.add("hidden");
-            document.getElementById("secondDiv").classList.add("hidden");
+    let div1 = document.querySelector('#div1');
+    let div2 = document.querySelector('#div2');
 
-            document.getElementById(divId).classList.remove("hidden");
-        }
+    if (div1.style.display == "block") {
+        div1.style.display = "none";
+        div2.style.display = "block";
+    } else {
+        div1.style.display = "block";
+        div2.style.display = "none";
+    }
+
+  }
     </script>
     <style> 
     a:visited {text-decoration: none; color:black;
@@ -30,8 +36,9 @@
     <div class="centerflex">
       <img style="margin-top:20px;  width:600px;"; src="images/experiments.gif">
     </div>
+    <button onclick=show()>click here</button>
 
-    <div id="entrylist" id="firstDiv" class="container">
+    <div id="entrylist" id="div1" style="display:block">
       <button onclick="showSecondDiv()">librry</button>
       <a class="entry-item" href="stuffs.html#2025-01-29" onclick="scrollToOffset(event, '2025-01-29', 75)">01.29 / dog animation<span class="arrow">></span></a>
       <a class="entry-item" href="stuffs.html#2025-01-27" onclick="scrollToOffset(event, '2025-01-27', 75)">01.27 / paper mache dog<span class="arrow">></span></a>
@@ -41,7 +48,7 @@
       <a class="entry-item" href="stuffs.html#2025-01-11" onclick="scrollToOffset(event, '2025-01-11', 75)">01.11 / Gelli plate first experiments<span class="arrow">></span></a>
     </div>
 
-    <div id="entrylist" id="secondDiv" class="container" hidden>
+    <div id="entrylist" id="div2" style="display:none">
       <button onclick="showfirstDiv()"><p class="entry-library">&lt;&lt;</p></button>
       <a class="entry-item" href="stuffs.html#2025-01-29" onclick="scrollToOffset(event, '2025-01-29', 75)">01.29 /</a>
       <a class="entry-item" href="stuffs.html#2025-01-27" onclick="scrollToOffset(event, '2025-01-27', 75)">01.27 /</a>
