@@ -17,8 +17,8 @@
       <img style="margin-top:20px;  width:600px;"; src="images/experiments.gif">
     </div>
     <button onclick=showdiv2()>click here</button>
-
-    <div id="entrylist" id="div1" style="display:block">
+<div id="div1" style="display:block">
+     <div id="entrylist">
       <button onclick="showSecondDiv()">librry</button>
       <a class="entry-item" href="stuffs.html#2025-01-29" onclick="scrollToOffset(event, '2025-01-29', 75)">01.29 / dog animation<span class="arrow">></span></a>
       <a class="entry-item" href="stuffs.html#2025-01-27" onclick="scrollToOffset(event, '2025-01-27', 75)">01.27 / paper mache dog<span class="arrow">></span></a>
@@ -27,8 +27,9 @@
       <a class="entry-item" href="stuffs.html#2025-01-12" onclick="scrollToOffset(event, '2025-01-12', 75)">01.12 /pocket shrine<span class="arrow">></span></a>
       <a class="entry-item" href="stuffs.html#2025-01-11" onclick="scrollToOffset(event, '2025-01-11', 75)">01.11 / Gelli plate first experiments<span class="arrow">></span></a>
     </div>
-
-    <div id="entrylist" id="div2" style="display:none">
+</div>
+<div id="div2" style="display:none">
+    <div id="entrylist">
       <button onclick="showfirstDiv()"><p class="entry-library">&lt;&lt;</p></button>
       <a class="entry-item" href="stuffs.html#2025-01-29" onclick="scrollToOffset(event, '2025-01-29', 75)">01.29 /</a>
       <a class="entry-item" href="stuffs.html#2025-01-27" onclick="scrollToOffset(event, '2025-01-27', 75)">01.27 /</a>
@@ -37,6 +38,8 @@
       <a class="entry-item" href="stuffs.html#2025-01-12" onclick="scrollToOffset(event, '2025-01-12', 75)">01.12 /</a>
       <a class="entry-item" href="stuffs.html#2025-01-11" onclick="scrollToOffset(event, '2025-01-11', 75)">01.11 / </a>
     </div>
+  </div>
+
     <script>
       let div1 = document.querySelector('#div1');
       let div2 = document.querySelector('#div2');
