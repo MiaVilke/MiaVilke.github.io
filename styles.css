@@ -252,7 +252,7 @@ a.entry-item:visited{
 }
 
 .arrow{
-align-items: right;
+text-align: right;
 }
 #stack{
   display: flex;
@@ -370,7 +370,9 @@ a.sidebuttonone:visited{
   display: flex;
   background: #fff8c2;
   color:black;
-  text-decoration:none
+  text-decoration:none;
+  text-align:center;
+
 }
 
 .photosmainpic{
