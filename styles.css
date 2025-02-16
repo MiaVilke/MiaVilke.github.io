@@ -354,12 +354,13 @@ a.entry-item:visited{
 }
 
 a.sidebuttonone{
+  font-family: 'Courier New', Courier, monospace;
   display: flex;
   width: 175px;
   height:40px;
-  background: black;
+  background: #fff8c2;
   padding:15px;
-  color:white;
+  color:black;
   font-size:30px;
   text-align:center;
   text-decoration:none
@@ -368,13 +369,8 @@ a.sidebuttonone{
 
 a.sidebuttonone:visited{
   display: flex;
-  width: 175px;
-  height:40px;
-  background: black;
-  padding:15px;
-  color:white;
-  font-size:30px;
-  text-align:center;
+  background: #fff8c2;
+  color:black;
   text-decoration:none
 }
 
