@@ -151,7 +151,7 @@ p {
 }
 
 .entry-item{
-  width:190px;
+  width:175px;
   font-size: 12px;
   line-height: 20px;
   color: black;
@@ -164,7 +164,7 @@ p {
 
 }
 .entry-library{
-  width:190px;
+  width:175px;
   font-size: 12px;
   line-height: 20px;
   color: black;
@@ -174,7 +174,7 @@ p {
   margin-bottom:8px;
 }
 .entry-library2{
-  width:190px;
+  width:175px;
   font-size: 12px;
   line-height: 20px;
   color: black;
@@ -366,7 +366,7 @@ a.sidebuttonone{
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
   display: flex;
-  width: 190px;
+  width: 175px;
   height:30px;
   background: #fff8c2;
   padding:15px;
