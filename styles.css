@@ -197,6 +197,9 @@ a.entry-item:visited{
   text-decoration: none;
 }
 
+.hover:hover{
+  text-decoration: underline;
+}
 .centerdiv{
   display: block;
   margin:0 auto;
