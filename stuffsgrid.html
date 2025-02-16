@@ -8,11 +8,9 @@
     </script>
     <style> a:visited {text-decoration: none; color:black; } 
         #element {
-            z-index: 1; /* Initial z-index */
 
         }
         #element2 {
-            z-index: 2; /* Initial z-index */
             opacity: 1;
         }
 
@@ -27,7 +25,7 @@
     </div>
 <div>
     <div class="entrylist" id="element">
-      <p class="entry-library" onclick="changeOpacity(1)">LIBRARY</p>
+      <p class="entry-library" onclick="changeOpacityBack('element2')">LIBRARY</p>
       <a class="entry-item" href="stuffs.html#2025-01-29" onclick="scrollToOffset(event, '2025-01-29', 75)">01.29 <span class="arrow">></span></a>
       <a class="entry-item" href="stuffs.html#2025-01-27" onclick="scrollToOffset(event, '2025-01-27', 75)">01.27 <span class="arrow">></span></a>
       <a class="entry-item" href="stuffs.html#2025-01-23" onclick="scrollToOffset(event, '2025-01-23', 75)">01.23 <span class="arrow">></span></a>
@@ -49,6 +47,10 @@
   </div>
 <script>
     function changeOpacity(opacityValue) {
+        let element2 = document.getElementById("element2");
+        element2.style.opacity = opacityValue;
+    }
+    function changeOpacityBack(opacityValue) {
         let element2 = document.getElementById("element2");
         element2.style.opacity = opacityValue;
     }
