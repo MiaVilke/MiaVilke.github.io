@@ -149,8 +149,7 @@ p {
   background: white;
   padding:10px;
 }
-
-.entry-item{
+.entrylist p{
   width:175px;
   font-size: 12px;
   line-height: 20px;
@@ -163,6 +162,7 @@ p {
   margin-bottom:5px;
 
 }
+
 .entry-library{
   width:175px;
   font-size: 12px;
