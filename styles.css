@@ -158,7 +158,8 @@ p {
   color: black;
   margin-bottom: 10px;
   font-family: 'Courier New', monospace;
-  text-decoration: underline dotted;  
+  border-bottom: 2px solid black; /* This acts as the underline */
+
 }
 a.entry-item{
   font-size: 14px;
