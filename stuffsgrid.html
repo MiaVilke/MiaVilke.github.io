@@ -47,18 +47,10 @@
     </div>
   </div>
 <script>
-    function changeZIndex(elementId) {
-            let element = document.getElementById(elementId);
-            let currentZIndex = window.getComputedStyle(element).zIndex;
-
-            // Toggle z-index between 1 and 2
-            if (currentZIndex == "2") {
-                element.style.zIndex = "1";
-            } else {
-                element.style.zIndex = "2";
-            }
-        }
-  
+ function changeZIndex() {
+            let element = document.getElementById("element");  // Targeting the #element div
+            element.style.zIndex = "2";  // Set its z-index to 2
+ }
 </script>
 <a href="index.html">
   <img id="backarrow" src="images/finger1.png">
