@@ -136,15 +136,14 @@ p {
 }
 
 #entrylist{
-  width:300px;
+  width:275px;
   height:500px;
   padding-bottom:10px;
-  padding-left:30px;
+  padding-left:10px;
   background-color: #fff8c2;
   position:relative;
   left:5%;
-  top:10%;
-  margin-top:30px;
+  top:8%;
   padding-top:20px;
 }
 
@@ -230,7 +229,6 @@ a.entry-item:visited{
   margin-top:100px;
 }
 
-
 .repeating-background {
   position: relative;
   background: url('background/paperbackground3.png') repeat;
@@ -240,8 +238,21 @@ a.entry-item:visited{
 
 }
 
+.dottedline {
+    display: inline-block;
+    position: relative;
+    text-decoration: none; /* Remove default underline */
+}
 
-
+.dottedline::after {
+    content: "...........................................";
+    position: absolute;
+    left: 0;
+    bottom: -3px; /* Adjust space below text */
+    width: 100%;
+    height: 2px; /* Adjust thickness */
+    background-color: black; /* Change color if needed */
+}
 
 
 #stack{
@@ -255,21 +266,6 @@ a.entry-item:visited{
   bottom:20px;
   left:30px;
   max-width: 90px;
-}
-
-#note{
-  position: absolute;
-  top:15%;
-  left:4%;
-  height:120px;
-  width:160px;
-  background-color: white;
-  box-shadow: 0px 7px 4px 0px rgba(0, 0, 0, 0.3);
-  
-  padding:2px 10px 10px 10px;
-  z-index:-3;
-  border: 6px ridge #D4B947;
-  margin-left:15px;
 }
 
 .bioimage{
