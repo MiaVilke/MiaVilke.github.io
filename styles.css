@@ -136,13 +136,14 @@ p {
 }
 
 #entrylist{
-  width:800px;
-  column-count: 2;
+  width:300px;
+  height:500px;
   padding-bottom:10px;
-  margin-top:30px;
-  margin-bottom:10px;
   padding-left:30px;
-
+  background-color: #fff8c2;
+  position:relative;
+  left:5%;
+  top:10%;
 
 }
 
@@ -164,7 +165,7 @@ p {
   font-weight: bold;
   font-size: 14px;
   line-height: 16px;
-  color: white;
+  color: black;
   margin-bottom: 10px;
   font-family: 'Courier New', monospace;
   
@@ -173,7 +174,7 @@ a.entry-item{
   font-weight: bold;
   font-size: 14px;
   line-height: 16px;
-  color: white;
+  color: black;
   margin-bottom: 10px;
   font-family: 'Courier New', monospace;
 }
@@ -182,7 +183,7 @@ a.entry-item:visited{
   font-weight: bold;
   font-size: 14px;
   line-height: 16px;
-  color: white;
+  color: black;
   margin-bottom: 10px;
   font-family: 'Courier New', monospace;
 }
