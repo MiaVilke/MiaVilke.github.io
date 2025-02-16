@@ -134,9 +134,9 @@ p {
 }
 
 .entrylist{
-  width:190px;
+  width:175px;
   height:400px;
-  padding: 10px 20px 0px 20px;
+  padding: 8px 10px 0px 10px;
   background-color: #fff8c2;
   position:absolute;
   left:4%;
