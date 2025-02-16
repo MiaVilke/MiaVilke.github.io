@@ -157,9 +157,10 @@ p {
   line-height: 20px;
   color: black;
   font-family: 'Courier New', monospace;
-  border-bottom: 2px dashed black; /* This acts as the underline */
+  border-bottom: 1px dashed black; /* This acts as the underline */
   word-spacing:-1px;
   display:block;
+  margin-bottom:5px;
 
 }
 a.entry-item{
