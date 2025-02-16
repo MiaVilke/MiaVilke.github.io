@@ -152,11 +152,11 @@ p {
 
 .entry-item{
   width:215px;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 20px;
   color: black;
   font-family: 'Courier New', monospace;
-  border-bottom: 1px dashed black; /* This acts as the underline */
+  border-bottom: 1px dotted black; /* This acts as the underline */
   word-spacing:-2px;
   letter-spacing: -1px;
   display:block;
@@ -164,7 +164,7 @@ p {
 
 }
 a.entry-item{
-  font-size: 14px;
+  font-size: 12px;
   line-height: 16px;
   color: black;
   font-family: 'Courier New', monospace;
@@ -172,7 +172,7 @@ a.entry-item{
 }
 
 a.entry-item:visited{
-  font-size: 14px;
+  font-size: 12px;
   line-height: 16px;
   color: black;
   font-family: 'Courier New', monospace;
