@@ -134,7 +134,7 @@ p {
 }
 
 #entrylist{
-  width:275px;
+  width:215px;
   height:500px;
   padding-bottom:10px;
   padding-left:10px;
@@ -159,7 +159,6 @@ p {
 }
 
 .entry-item{
-  width:275px;
   font-size: 14px;
   line-height: 16px;
   color: black;
@@ -251,7 +250,9 @@ a.entry-item:visited{
     background-color: black; /* Change color if needed */
 }
 
-
+.arrow{
+align-items: right;
+}
 #stack{
   display: flex;
   flex-direction: column;
@@ -345,7 +346,7 @@ a.entry-item:visited{
 .sidebuttons{
   position:absolute;
   left:8%; top:80%;
-  width:275px;
+  width:215px;
   height:300px;
   z-index:5;
 }
@@ -353,8 +354,8 @@ a.entry-item:visited{
 a.sidebuttonone{
   font-family: 'Courier New', Courier, monospace;
   display: flex;
-  width: 175px;
-  height:40px;
+  width: 215px;
+  height:30px;
   background: #fff8c2;
   padding:15px;
   color:black;
