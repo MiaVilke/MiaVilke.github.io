@@ -165,16 +165,17 @@ a.entry-item{
   font-size: 14px;
   line-height: 16px;
   color: black;
-  margin-bottom: 10px;
   font-family: 'Courier New', monospace;
+  text-decoration: none;
 }
 
 a.entry-item:visited{
   font-size: 14px;
   line-height: 16px;
   color: black;
-  margin-bottom: 10px;
   font-family: 'Courier New', monospace;
+  text-decoration: none;
+
 }
 
 .centerdiv{
