@@ -158,7 +158,8 @@ p {
   color: black;
   font-family: 'Courier New', monospace;
   border-bottom: 1px dashed black; /* This acts as the underline */
-  word-spacing:-1px;
+  word-spacing:-2px;
+  letter-spacing: -2px;
   display:block;
   margin-bottom:5px;
 
