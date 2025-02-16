@@ -161,6 +161,8 @@ p {
   letter-spacing: -1px;
   display:block;
   margin-bottom:5px;
+  position:absolute;
+
 
 }
 .entry-library{
@@ -171,7 +173,6 @@ p {
   font-family: 'Courier New', monospace;
   word-spacing:-2px;
   letter-spacing: -1px;
-  display:block;
   margin-bottom:8px;
 }
 .entry-library2{
@@ -182,7 +183,6 @@ p {
   font-family: 'Courier New', monospace;
   word-spacing:-2px;
   letter-spacing: -1px;
-  display:block;
   margin-bottom:8px;
 text-decoration: underline;
 }
