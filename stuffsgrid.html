@@ -4,15 +4,12 @@
     <title>STUFFS</title>
     <link rel="stylesheet" href="styles.css">
     <style> a:visited {text-decoration: none; color:black; } 
-        #element {
-            z-index: 1; /* Initial z-index */
+        #element, #element2 {
+            opacity: 0;
+            display:none;
 
         }
-        #element2 {
-            z-index: 2; /* Initial z-index */
-            opacity: 1;
-            
-        }
+
 
     </style>
 
@@ -23,41 +20,68 @@
     <div class="centerflex">
       <img style="margin-top:20px;  width:600px;"; src="images/experiments.gif">
     </div>
-<div>
-    <div class="entrylist" id="element">
-      <p class="entry-library2" onclick="changeOpacity(1)">&lt;&lt;</p>
-      <a class="entry-item" href="stuffs.html#2025-01-29" onclick="scrollToOffset(event, '2025-01-29', 75)">01.29 / dog animation<span class="arrow">></span></a>
-      <a class="entry-item" href="stuffs.html#2025-01-27" onclick="scrollToOffset(event, '2025-01-27', 75)">01.27 / paper mache dog<span class="arrow">></span></a>
-      <a class="entry-item" href="stuffs.html#2025-01-23" onclick="scrollToOffset(event, '2025-01-23', 75)">01.23 / sketches<span class="arrow">></span></a>
-      <a class="entry-item" href="stuffs.html#2025-01-20" onclick="scrollToOffset(event, '2025-01-20', 75)">01.20 / webdev log #1<span class="arrow">></span></a>
-      <a class="entry-item" href="stuffs.html#2025-01-12" onclick="scrollToOffset(event, '2025-01-12', 75)">01.12 /pocket shrine<span class="arrow">></span></a>
-      <a class="entry-item" href="stuffs.html#2025-01-11" onclick="scrollToOffset(event, '2025-01-11', 75)">01.11 / Gelli plate first experiments<span class="arrow">></span></a>
-    </div>
-</div>
-<div>
-    <div class="entrylist" id="element2">
+  <div class="entrylist" id="elementbase">
       <p class="entry-library">LIBRARY</p>
-      <p class="entry-item">02.25 <span class="arrow">></span></p>
-      <p class="entry-item" onclick="changeOpacity(0)">01.25 <span class="arrow">></span></p>
-    </div>
+      <p class="entry-item"onclick="changeOpacityFeb(1)">02.25 <span class="arrow">></span></p>
+      <p class="entry-item" onclick="changeOpacityJan(1)">01.25 <span class="arrow">></span></p>
   </div>
+  <div class="entrylist" id="element1">
+    <p class="entry-library2" onclick="changeOpacityJan(0)">&lt;&lt;</p>
+    <a class="entry-item" href="stuffs.html#2025-01-29" onclick="scrollToOffset(event, '2025-01-29', 75)">01.29 / dog animation<span class="arrow">></span></a>
+    <a class="entry-item" href="stuffs.html#2025-01-27" onclick="scrollToOffset(event, '2025-01-27', 75)">01.27 / paper mache dog<span class="arrow">></span></a>
+    <a class="entry-item" href="stuffs.html#2025-01-23" onclick="scrollToOffset(event, '2025-01-23', 75)">01.23 / sketches<span class="arrow">></span></a>
+    <a class="entry-item" href="stuffs.html#2025-01-20" onclick="scrollToOffset(event, '2025-01-20', 75)">01.20 / webdev log #1<span class="arrow">></span></a>
+    <a class="entry-item" href="stuffs.html#2025-01-12" onclick="scrollToOffset(event, '2025-01-12', 75)">01.12 /pocket shrine<span class="arrow">></span></a>
+    <a class="entry-item" href="stuffs.html#2025-01-11" onclick="scrollToOffset(event, '2025-01-11', 75)">01.11 / Gelli plate first experiments<span class="arrow">></span></a>
+</div>
+<div class="entrylist" id="element2">
+  <p class="entry-library2" onclick="changeOpacityFeb(0)">&lt;&lt;</p>
+  <a class="entry-item" href="stuffs.html#2025-01-29" onclick="scrollToOffset(event, '2025-01-29', 75)">02.29 / dog animation<span class="arrow">></span></a>
+</div>
 <script>
+function changeOpacityJan(opacityValue) {
+            let element1 = document.getElementById("element1");
+            let element2 = document.getElementById("element2");
 
-function changeOpacity(opacityValue) {
-    let element2 = document.getElementById("element2");
+            if (opacityValue === 1) {
+                element1.style.display = "block";
+                setTimeout(() => {
+                    element1.style.opacity = "1";
+                }, 10);
 
-    if (opacityValue === 0) {
-        element2.style.opacity = "0";
-        setTimeout(() => {
-            element2.style.display = "none";  // Hide completely after fading out
-        }, 500); // Wait for transition
-    } else {
-        element2.style.display = "block";  // Make it visible again
-        setTimeout(() => {
-            element2.style.opacity = "1";
-        }, 10);
-    }
-}  
+                element2.style.opacity = "0";
+                setTimeout(() => {
+                    element2.style.display = "none";
+                }, 500);
+            } else {
+                element1.style.opacity = "0";
+                setTimeout(() => {
+                    element1.style.display = "none";
+                }, 500);
+            }
+        }
+
+        function changeOpacityFeb(opacityValue) {
+            let element1 = document.getElementById("element1");
+            let element2 = document.getElementById("element2");
+
+            if (opacityValue === 1) {
+                element2.style.display = "block";
+                setTimeout(() => {
+                    element2.style.opacity = "1";
+                }, 10);
+
+                element1.style.opacity = "0";
+                setTimeout(() => {
+                    element1.style.display = "none";
+                }, 500);
+            } else {
+                element2.style.opacity = "0";
+                setTimeout(() => {
+                    element2.style.display = "none";
+                }, 500);
+            }
+        }
 </script>
 <a href="index.html">
   <img id="backarrow" src="images/finger1.png">
