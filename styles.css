@@ -246,7 +246,7 @@ a.entry-item:visited{
     position: absolute;
     left: 0;
     width: 100%;
-    height: 2px; /* Adjust thickness */
+    height: 3px; /* Adjust thickness */
     background-color: black; /* Change color if needed */
 }
 
