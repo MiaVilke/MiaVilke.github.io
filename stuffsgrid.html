@@ -5,14 +5,11 @@
     <link rel="stylesheet" href="styles.css">
     <script src="app.js"></script>
     <script>
-        function showSecondDiv() {
+        function showDiv(divId) {
             document.getElementById("firstDiv").classList.add("hidden");
-            document.getElementById("secondDiv").classList.remove("hidden");
-        }
-
-        function showFirstDiv() {
             document.getElementById("secondDiv").classList.add("hidden");
-            document.getElementById("firstDiv").classList.remove("hidden");
+
+            document.getElementById(divId).classList.remove("hidden");
         }
     </script>
     <style> 
