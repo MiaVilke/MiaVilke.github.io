@@ -47,9 +47,12 @@
     </div>
   </div>
 <script>
-        function changeZIndex(elementId) {
+    function changeZIndex(elementId) {
             let element = document.getElementById(elementId);
-            if (element.style.zIndex == "2") {
+            let currentZIndex = window.getComputedStyle(element).zIndex;
+
+            // Toggle z-index between 1 and 2
+            if (currentZIndex == "2") {
                 element.style.zIndex = "1";
             } else {
                 element.style.zIndex = "2";
