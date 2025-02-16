@@ -159,6 +159,7 @@ p {
   font-family: 'Courier New', monospace;
   border-bottom: 2px dashed black; /* This acts as the underline */
   word-spacing:-1px;
+  display:block;
 
 }
 a.entry-item{
