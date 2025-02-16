@@ -3,8 +3,6 @@
   <head>
     <title>STUFFS</title>
     <link rel="stylesheet" href="styles.css">
-
-    </script>
     <style> a:visited {text-decoration: none; color:black; } 
         #element {
             z-index: 1; /* Initial z-index */
@@ -13,6 +11,7 @@
         #element2 {
             z-index: 2; /* Initial z-index */
             opacity: 1;
+            
         }
 
     </style>
@@ -47,11 +46,22 @@
     </div>
   </div>
 <script>
-    function changeOpacity(opacityValue) {
-        let element2 = document.getElementById("element2");
-        element2.style.opacity = opacityValue;
+
+function changeOpacity(opacityValue) {
+    let element2 = document.getElementById("element2");
+
+    if (opacityValue === 0) {
+        element2.style.opacity = "0";
+        setTimeout(() => {
+            element2.style.display = "none";  // Hide completely after fading out
+        }, 500); // Wait for transition
+    } else {
+        element2.style.display = "block";  // Make it visible again
+        setTimeout(() => {
+            element2.style.opacity = "1";
+        }, 10);
     }
-        
+}  
 </script>
 <a href="index.html">
   <img id="backarrow" src="images/finger1.png">
