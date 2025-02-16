@@ -3,11 +3,18 @@
   <head>
     <title>STUFFS</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="app.js"></script>
-    <style> 
-    a:visited {text-decoration: none; color:black;
-     } 
-     </style>
+    <script src="app.js">
+        function showSecondDiv() {
+            document.getElementById("firstDiv").classList.add("hidden");
+            document.getElementById("secondDiv").classList.remove("hidden");
+        }
+
+        function showFirstDiv() {
+            document.getElementById("secondDiv").classList.add("hidden");
+            document.getElementById("firstDiv").classList.remove("hidden");
+        }
+    </script>
+    <style> a:visited {text-decoration: none; color:black; } </style>
 
     <link rel="icon" type="image/x-icon" href="images/Gort-Gorts-Icons-Vol4-Plump-N-dapper.32.png">
 
@@ -16,9 +23,18 @@
     <div class="centerflex">
       <img style="margin-top:20px;  width:600px;"; src="images/experiments.gif">
     </div>
-    <button onclick=showdiv2()>click here</button>
-<div id="div1" style="display:block">
-     <div id="entrylist">
+
+    <div id="entrylist">
+      <p class="entry-library">LIBRARY</p>
+      <a class="entry-item" href="stuffs.html#2025-01-29" onclick="scrollToOffset(event, '2025-01-29', 75)">01.29 /<span class="arrow">></span></a>
+      <a class="entry-item" href="stuffs.html#2025-01-27" onclick="scrollToOffset(event, '2025-01-27', 75)">01.27 /<span class="arrow">></span></a>
+      <a class="entry-item" href="stuffs.html#2025-01-23" onclick="scrollToOffset(event, '2025-01-23', 75)">01.23 <span class="arrow">></span></a>
+      <a class="entry-item" href="stuffs.html#2025-01-20" onclick="scrollToOffset(event, '2025-01-20', 75)">01.20 /<span class="arrow">></span></a>
+      <a class="entry-item" href="stuffs.html#2025-01-12" onclick="scrollToOffset(event, '2025-01-12', 75)">01.12 <span class="arrow">></span></a>
+      <a class="entry-item" href="stuffs.html#2025-01-11" onclick="scrollToOffset(event, '2025-01-11', 75)">01.11 / <span class="arrow">></span></a>
+    </div>
+
+    <div id="entrylist">
       <p class="entry-library2">&lt;&lt;</p>
       <a class="entry-item" href="stuffs.html#2025-01-29" onclick="scrollToOffset(event, '2025-01-29', 75)">01.29 / dog animation<span class="arrow">></span></a>
       <a class="entry-item" href="stuffs.html#2025-01-27" onclick="scrollToOffset(event, '2025-01-27', 75)">01.27 / paper mache dog<span class="arrow">></span></a>
@@ -27,67 +43,7 @@
       <a class="entry-item" href="stuffs.html#2025-01-12" onclick="scrollToOffset(event, '2025-01-12', 75)">01.12 /pocket shrine<span class="arrow">></span></a>
       <a class="entry-item" href="stuffs.html#2025-01-11" onclick="scrollToOffset(event, '2025-01-11', 75)">01.11 / Gelli plate first experiments<span class="arrow">></span></a>
     </div>
-</div>
-<div id="div2" style="display:none">
-    <div id="entrylist">
-      <p class="entry-library">libeary</p>
-      <a class="entry-item" href="stuffs.html#2025-01-29" onclick="scrollToOffset(event, '2025-01-29', 75)">01.29 /</a>
-      <a class="entry-item" href="stuffs.html#2025-01-27" onclick="scrollToOffset(event, '2025-01-27', 75)">01.27 /</a>
-      <a class="entry-item" href="stuffs.html#2025-01-23" onclick="scrollToOffset(event, '2025-01-23', 75)">01.23 / </a>
-      <a class="entry-item" href="stuffs.html#2025-01-20" onclick="scrollToOffset(event, '2025-01-20', 75)">01.20 /</a>
-      <a class="entry-item" href="stuffs.html#2025-01-12" onclick="scrollToOffset(event, '2025-01-12', 75)">01.12 /</a>
-      <a class="entry-item" href="stuffs.html#2025-01-11" onclick="scrollToOffset(event, '2025-01-11', 75)">01.11 / </a>
-    </div>
-  </div>
 
-    <script>
-      let div1 = document.querySelector('#div1');
-      let div2 = document.querySelector('#div2');
-  
-      if (div1.style.display == "block") {
-          div1.style.display = "none";
-          div2.style.display = "block";
-      } else {
-          div1.style.display = "block";
-          div2.style.display = "none";
-      }
-  
-      </script>
-
-          <!-- Button to Switch Divs -->
-    <button onclick="showDiv2()">Click Here</button>
-
-    <!-- First Div -->
-    <div id="div1" style="display:block">
-        <div id="entrylist">
-            <p class="entry-library2">&lt;&lt;</p>
-            <a class="entry-item" href="stuffs.html#2025-01-29">01.29 / dog animation</a>
-            <a class="entry-item" href="stuffs.html#2025-01-27">01.27 / paper mache dog</a>
-        </div>
-        <button onclick="showDiv2()">Go to Second Div</button>
-    </div>
-
-    <!-- Second Div -->
-    <div id="div2" style="display:none">
-        <div id="entrylist">
-            <p class="entry-library">Library</p>
-            <a class="entry-item" href="stuffs.html#2025-01-29">01.29 /</a>
-            <a class="entry-item" href="stuffs.html#2025-01-27">01.27 /</a>
-        </div>
-        <button onclick="showDiv1()">Back</button>
-    </div>
-
-    <script>
-        function showDiv2() {
-            document.getElementById("div1").style.display = "none";
-            document.getElementById("div2").style.display = "block";
-        }
-
-        function showDiv1() {
-            document.getElementById("div2").style.display = "none";
-            document.getElementById("div1").style.display = "block";
-        }
-    </script>
 
 
 <a href="index.html">
