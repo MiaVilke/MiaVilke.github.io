@@ -155,6 +155,7 @@ p {
   font-size: 12px;
   line-height: 20px;
   color: black;
+  font-weight:bold;
   font-family: 'Courier New', monospace;
   border-bottom: 1px dotted black; /* This acts as the underline */
   word-spacing:-2px;
@@ -172,6 +173,8 @@ p {
   word-spacing:-2px;
   letter-spacing: -1px;
   margin-bottom:8px;
+  font-weight:bold;
+
 }
 .entry-library2{
   width:175px;
@@ -183,6 +186,8 @@ p {
   letter-spacing: -1px;
   margin-bottom:8px;
 text-decoration: underline;
+font-weight:bold;
+
 }
 
 a.entry-item{
