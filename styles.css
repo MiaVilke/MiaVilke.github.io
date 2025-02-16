@@ -79,7 +79,9 @@ p {
   font-family: 'camelot'; /*a name to be used later*/
   src: url('fonts/CamelotCaps.ttf'); /*URL to font*/
 }
-
+#cristone{
+  font-family: 'Cristone';
+}
 
 .grid-container {
   display: grid;
@@ -112,9 +114,7 @@ p {
   margin-left:15px;
 }
 
-#cristone{
-  font-family: 'Cristone';
-}
+
 
 #inline{
   display: inline;
@@ -152,6 +152,8 @@ p {
 }
 
 .entry-item{
+  float:left;
+  width:215px;
   font-size: 14px;
   line-height: 16px;
   color: black;
@@ -229,11 +231,11 @@ a.entry-item:visited{
 }
 
 .arrow{
-text-align: right;
+  float:right
 }
 
 .arrow:hover{
-  text-align: right;
+  float:right;
   text-decoration: underline;
   }
 
