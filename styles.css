@@ -134,11 +134,11 @@ p {
 }
 
 #entrylist{
-  width:215px;
+  width:190px;
   height:400px;
   padding: 10px 20px 0px 20px;
   background-color: #fff8c2;
-  position:relative;
+  position:absolute;
   left:4%;
   top:0%;
 
@@ -151,7 +151,7 @@ p {
 }
 
 .entry-item{
-  width:215px;
+  width:190px;
   font-size: 12px;
   line-height: 20px;
   color: black;
@@ -164,7 +164,7 @@ p {
 
 }
 .entry-library{
-  width:215px;
+  width:190px;
   font-size: 12px;
   line-height: 20px;
   color: black;
@@ -175,7 +175,7 @@ p {
   margin-bottom:8px;
 }
 .entry-library2{
-  width:215px;
+  width:190px;;
   font-size: 12px;
   line-height: 20px;
   color: black;
@@ -368,7 +368,7 @@ a.sidebuttonone{
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
   display: flex;
-  width: 215px;
+  width: 190px;
   height:30px;
   background: #fff8c2;
   padding:15px;
