@@ -136,7 +136,7 @@ p {
 #entrylist{
   width:215px;
   height:400px;
-    padding:20px;
+  padding: 10px 20px 0px 20px;
   background-color: #fff8c2;
   position:relative;
   left:4%;
