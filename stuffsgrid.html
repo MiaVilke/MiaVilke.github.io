@@ -54,6 +54,41 @@
   
       </script>
 
+          <!-- Button to Switch Divs -->
+    <button onclick="showDiv2()">Click Here</button>
+
+    <!-- First Div -->
+    <div id="div1" style="display:block">
+        <div id="entrylist">
+            <p class="entry-library2">&lt;&lt;</p>
+            <a class="entry-item" href="stuffs.html#2025-01-29">01.29 / dog animation</a>
+            <a class="entry-item" href="stuffs.html#2025-01-27">01.27 / paper mache dog</a>
+        </div>
+        <button onclick="showDiv2()">Go to Second Div</button>
+    </div>
+
+    <!-- Second Div -->
+    <div id="div2" style="display:none">
+        <div id="entrylist">
+            <p class="entry-library">Library</p>
+            <a class="entry-item" href="stuffs.html#2025-01-29">01.29 /</a>
+            <a class="entry-item" href="stuffs.html#2025-01-27">01.27 /</a>
+        </div>
+        <button onclick="showDiv1()">Back</button>
+    </div>
+
+    <script>
+        function showDiv2() {
+            document.getElementById("div1").style.display = "none";
+            document.getElementById("div2").style.display = "block";
+        }
+
+        function showDiv1() {
+            document.getElementById("div2").style.display = "none";
+            document.getElementById("div1").style.display = "block";
+        }
+    </script>
+
 
 <a href="index.html">
   <img id="backarrow" src="images/finger1.png">
