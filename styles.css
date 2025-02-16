@@ -344,8 +344,8 @@ a.entry-item:visited{
 
 .sidebuttons{
   position:absolute;
-  right:70px; top:300px;
-  width:250px;
+  left:8%; top:80%;
+  width:275px;
   height:300px;
   z-index:5;
 }
