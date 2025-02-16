@@ -15,9 +15,9 @@
     <div class="centerflex">
       <img style="margin-top:20px;  width:600px;"; src="images/experiments.gif">
     </div>
-<div>
-    <div id="entrylist">
-      <p class="entry-library">LIBRARY</p>
+<div id="myDiv2">
+    <div id="entrylist" >
+      <p class="entry-library" onclick="fadeOut()">LIBRARY</p>
       <a class="entry-item" href="stuffs.html#2025-01-29" onclick="scrollToOffset(event, '2025-01-29', 75)">01.29 <span class="arrow">></span></a>
       <a class="entry-item" href="stuffs.html#2025-01-27" onclick="scrollToOffset(event, '2025-01-27', 75)">01.27 <span class="arrow">></span></a>
       <a class="entry-item" href="stuffs.html#2025-01-23" onclick="scrollToOffset(event, '2025-01-23', 75)">01.23 <span class="arrow">></span></a>
@@ -40,6 +40,9 @@
 <script>
   function fadeOut() {
     document.getElementById("myDiv").style.opacity = "0";
+}
+function fadeIn() {
+    document.getElementById("myDiv2").style.opacity = "100";
 }
 </script>
 <a href="index.html">
