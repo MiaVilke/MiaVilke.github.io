@@ -6,7 +6,17 @@
     <script src="app.js">
 
     </script>
-    <style> a:visited {text-decoration: none; color:black; } </style>
+    <style> a:visited {text-decoration: none; color:black; } 
+        #element {
+            z-index: 1; /* Initial z-index */
+
+        }
+        #element2 {
+            z-index: 2; /* Initial z-index */
+            margin: 50px;
+        }
+
+    </style>
 
     <link rel="icon" type="image/x-icon" href="images/Gort-Gorts-Icons-Vol4-Plump-N-dapper.32.png">
 
@@ -16,8 +26,8 @@
       <img style="margin-top:20px;  width:600px;"; src="images/experiments.gif">
     </div>
 <div>
-    <div id="entrylist" >
-      <p class="entry-library" onclick="fadeIn()">LIBRARY</p>
+    <div class="entrylist" id="element2">
+      <p class="entry-library" onclick="changeZIndex('element')">LIBRARY</p>
       <a class="entry-item" href="stuffs.html#2025-01-29" onclick="scrollToOffset(event, '2025-01-29', 75)">01.29 <span class="arrow">></span></a>
       <a class="entry-item" href="stuffs.html#2025-01-27" onclick="scrollToOffset(event, '2025-01-27', 75)">01.27 <span class="arrow">></span></a>
       <a class="entry-item" href="stuffs.html#2025-01-23" onclick="scrollToOffset(event, '2025-01-23', 75)">01.23 <span class="arrow">></span></a>
@@ -26,8 +36,8 @@
       <a class="entry-item" href="stuffs.html#2025-01-11" onclick="scrollToOffset(event, '2025-01-11', 75)">01.11 <span class="arrow">></span></a>
     </div>
 </div>
-<div id="myDiv">
-    <div id="entrylist">
+<div  onclick="changeZIndex('element')">
+    <div class="entrylist" id="element">
       <p class="entry-library2" onclick="fadeOut()">&lt;&lt;</p>
       <a class="entry-item" href="stuffs.html#2025-01-29" onclick="scrollToOffset(event, '2025-01-29', 75)">01.29 / dog animation<span class="arrow">></span></a>
       <a class="entry-item" href="stuffs.html#2025-01-27" onclick="scrollToOffset(event, '2025-01-27', 75)">01.27 / paper mache dog<span class="arrow">></span></a>
@@ -44,6 +54,14 @@
 function fadeIn() {
     document.getElementById("myDiv").style.opacity = "1";
 }
+        function changeZIndex(elementId) {
+            let element = document.getElementById(elementId);
+            if (element.style.zIndex == "2") {
+                element.style.zIndex = "1";
+            } else {
+                element.style.zIndex = "2";
+            }
+        }
 </script>
 <a href="index.html">
   <img id="backarrow" src="images/finger1.png">
