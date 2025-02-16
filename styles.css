@@ -158,6 +158,7 @@ p {
   color: black;
   font-family: 'Courier New', monospace;
   border-bottom: 2px solid black; /* This acts as the underline */
+  word-spacing:-1px;
 
 }
 a.entry-item{
