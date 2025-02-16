@@ -173,8 +173,20 @@ p {
   letter-spacing: -1px;
   display:block;
   margin-bottom:8px;
-
 }
+.entry-library2{
+  width:215px;
+  font-size: 12px;
+  line-height: 20px;
+  color: black;
+  font-family: 'Courier New', monospace;
+  word-spacing:-2px;
+  letter-spacing: -1px;
+  display:block;
+  margin-bottom:8px;
+text-decoration: underline;
+}
+
 a.entry-item{
   font-size: 12px;
   line-height: 16px;

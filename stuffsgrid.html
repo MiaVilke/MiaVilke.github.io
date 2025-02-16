@@ -3,8 +3,27 @@
   <head>
     <title>STUFFS</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="app.js"></script>
-    <style> a:visited {text-decoration: none; color:black; } </style>
+    <script src="app.js">
+        function showSecondDiv() {
+            document.getElementById("firstDiv").classList.add("hidden");
+            document.getElementById("secondDiv").classList.remove("hidden");
+        }
+
+        function showFirstDiv() {
+            document.getElementById("secondDiv").classList.add("hidden");
+            document.getElementById("firstDiv").classList.remove("hidden");
+        }
+    </script>
+    <style> 
+    a:visited {text-decoration: none; color:black;
+     } 
+     .container {
+          
+        }
+        .hidden {
+            display: none;
+        }
+     </style>
 
     <link rel="icon" type="image/x-icon" href="images/Gort-Gorts-Icons-Vol4-Plump-N-dapper.32.png">
 
@@ -14,8 +33,16 @@
       <img style="margin-top:20px;  width:600px;"; src="images/experiments.gif">
     </div>
 
-    <div id="entrylist">
-      <p class="entry-library">&lt;&lt;</p>
+    <div id="entrylist" id="firstDiv" class="container">
+      <button class="entry-library"onclick="showSecondDiv()">LIBRARY</button>
+      <a class="entry-item" href="stuffs.html#2025-01-23" onclick="scrollToOffset(event, '2025-01-23', 75)">03.25</a>
+      <a class="entry-item" href="stuffs.html#2025-01-29" onclick="scrollToOffset(event, '2025-01-29', 75)">02.25</a>
+      <a class="entry-item" href="stuffs.html#2025-01-27" onclick="scrollToOffset(event, '2025-01-27', 75)">01.25</a>
+      <a class="entry-item" href="stuffs.html#2025-01-23" onclick="scrollToOffset(event, '2025-01-23', 75)">12.22</a>
+    </div>
+
+    <div id="entrylist" id="secondDiv" class="container hidden">
+      <button class="entry-library2" onclick="showFirstDiv()">&lt;&lt;</button>
       <a class="entry-item" href="stuffs.html#2025-01-29" onclick="scrollToOffset(event, '2025-01-29', 75)">01.29 / dog animation<span class="arrow">></span></a>
       <a class="entry-item" href="stuffs.html#2025-01-27" onclick="scrollToOffset(event, '2025-01-27', 75)">01.27 / paper mache dog<span class="arrow">></span></a>
       <a class="entry-item" href="stuffs.html#2025-01-23" onclick="scrollToOffset(event, '2025-01-23', 75)">01.23 / sketches<span class="arrow">></span></a>
