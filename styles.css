@@ -635,14 +635,11 @@ border-style: 1.2px solid #cd3e053b;
 
 .stuffs-container {
   display: flex;
-  flex-direction: column;
   flex-wrap: wrap;
-  justify-content: flex-start;
-  gap: 40px; /* Adds 10px gaps between photos */
-  max-height: 3000px; /* Wraps to second column after 800px */
+  justify-content: center;
+  gap: 40px; /* Adds spacing between items */
+  max-width: 1200px; /* Adjust as needed */
   margin: 50px auto; /* Centers the container */
-  column-gap: 50px;
-  width:900px;
 
  
 }
