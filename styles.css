@@ -666,8 +666,10 @@ border-style: 1.2px solid #cd3e053b;
   grid-template-columns: auto auto auto;
   background-color: dodgerblue;
   display: absolute;
-  left:50vw;
-  border-right: 2px dotted white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    border-right: 2px dotted white;
   }
 
   
