@@ -638,7 +638,6 @@ border-style: 1.2px solid #cd3e053b;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: flex-start;
-  gap: 40px; /* Adds 10px gaps between photos */
   max-height: 800px; /* Wraps to second column after 800px */
   margin: 50px auto; /* Centers the container */
   width:900px;
