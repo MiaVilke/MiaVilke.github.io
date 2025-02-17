@@ -661,33 +661,33 @@ border-style: 1.2px solid #cd3e053b;
 
 .stuffs-container::before,
 .stuffs-container::after,
-.stuffs-container .mid-line-1,
-.stuffs-container .mid-line-2 {
+.stuffs-container .mid-line-1 {
   content: "";
   position: absolute;
   width: 2px; /* Line thickness */
+  height: 100%;
   top: 0;
-  bottom: 0;
   background: repeating-linear-gradient(
     to bottom,
     white 0px,
     white 2px,
     transparent 2px,
     transparent 6px
-  ); /* Creates the dotted effect */
+  ); /* Dotted effect */
 }
 
-/* First vertical line (between 1st and 2nd column) */
+/* First vertical line (25% of the width) */
 .stuffs-container::before {
   left: 30%;
 }
 
-/* Second vertical line (between 2nd and 3rd column) */
+/* Second vertical line (50% of the width) */
 .stuffs-container::after {
   left: 50%;
 }
 
-/* Third vertical line (between 3rd and 4th column) */
-.stuffs-container::after {
+/* Third vertical line (75% of the width) */
+.stuffs-container .mid-line-1 {
   left: 75%;
+  position: absolute;
 }
