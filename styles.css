@@ -669,7 +669,6 @@ border-style: 1.2px solid #cd3e053b;
   display: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
     border-right: 2px dotted white;
   }
 
