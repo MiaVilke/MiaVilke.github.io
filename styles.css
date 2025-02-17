@@ -641,7 +641,6 @@ border-style: 1.2px solid #cd3e053b;
   gap: 40px; /* Adds 10px gaps between photos */
   max-height: 800px; /* Wraps to second column after 800px */
   margin: 50px auto; /* Centers the container */
-  column-gap: 50px;
   width:900px;
   border:2px dotted white;
 
@@ -655,4 +654,8 @@ border-style: 1.2px solid #cd3e053b;
 .stuffs-item img {
   height: auto;
   max-width: 150px;
+}
+
+.stuffs-container:first-child {
+  border-right: solid white 2px;
 }
