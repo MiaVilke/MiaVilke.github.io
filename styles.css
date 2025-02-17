@@ -665,6 +665,16 @@ border-style: 1.2px solid #cd3e053b;
   display: grid;
   grid-template-columns: auto auto auto;
   background-color: dodgerblue;
-  float: center;
+  display: block;
+  margin:0 auto;
+  border-right: 2px dotted white;
+  }
 
+  
+  .wrappercol{
+    background-color: #f1f1f1;
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
   }
