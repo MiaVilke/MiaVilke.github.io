@@ -141,7 +141,7 @@ p {
   position:absolute;
   left:4%;
   top:10%;
-
+  margin-right:60px;
 }
 
 .entrybody{
@@ -640,7 +640,7 @@ border-style: 1.2px solid #cd3e053b;
   justify-content: flex-start;
   max-height: 800px; /* Wraps to second column after 800px */
   margin: 10px auto; /* Centers the container */
-  width:900px;
+  width:600px;
   border:2px dotted white;
 
  
