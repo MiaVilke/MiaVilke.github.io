@@ -651,11 +651,28 @@ border-style: 1.2px solid #cd3e053b;
   display: flex;
 
 }
+
 .stuffs-item img {
   height: auto;
   max-width: 150px;
 }
 
-.stuffs-container:first-child {
-  border-right: solid white 2px;
+.stuffs-container::before {
+  content: "";
+  position: absolute;
+  width: 2px; /* Width of vertical line */
+  background-color: white; /* Line color */
+  top: 0;
+  bottom: 0;
+  left: 33.33%; /* Adjust for number of columns */
+}
+
+.stuffs-container::after {
+  content: "";
+  position: absolute;
+  width: 2px; /* Width of vertical line */
+  background-color: white; /* Line color */
+  top: 0;
+  bottom: 0;
+  left: 66.66%; /* Adjust for number of columns */
 }
