@@ -665,8 +665,8 @@ border-style: 1.2px solid #cd3e053b;
   display: grid;
   grid-template-columns: auto auto auto;
   background-color: dodgerblue;
-  display: block;
-  margin:0 auto;
+  display: absolute;
+  left:50vw;
   border-right: 2px dotted white;
   }
 
