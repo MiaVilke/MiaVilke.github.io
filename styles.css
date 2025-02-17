@@ -641,7 +641,8 @@ border-style: 1.2px solid #cd3e053b;
   max-height: 600px; /* Wraps to second column after 800px */
   margin: auto auto auto 22%; /* Centers the container */
   width:900px;
-  border:2px dotted white;
+  border-left:3px dotted white;
+  border-right:3px dotted white;
   margin-top:25px;
 
  
@@ -668,9 +669,9 @@ border-style: 1.2px solid #cd3e053b;
   background: repeating-linear-gradient(
     to bottom,
     white 0px,
-    white 4px,
-    transparent 4px,
-    transparent 8px
+    white 2px,
+    transparent 2px,
+    transparent 4px
   ); /* Creates the dotted effect */
 }
 
