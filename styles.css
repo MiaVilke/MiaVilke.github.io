@@ -634,60 +634,46 @@ border-style: 1.2px solid #cd3e053b;
 }
 
 .stuffs-container {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  max-height: 600px; /* Wraps to second column after 800px */
-  margin: auto auto auto 22%; /* Centers the container */
-  width:900px;
-  border-left:3px dotted white;
-  border-right:3px dotted white;
-  margin-top:25px;
-
- 
-}
-.stuffs-item {
-  flex-grow: 1 1 1 1;
-  display: flex;
-
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Creates 4 equal columns */
+  gap: 10px; /* Adjust spacing between images */
+  width: 800px; /* Fixed width to prevent shifting */
+  margin: auto;
+  position: relative; /* Needed for absolute lines */
+  border: 2px dotted white;
+  padding: 10px;
 }
 
+/* Ensures images stay properly sized */
 .stuffs-item img {
+  width: 100%; /* Makes images fully responsive */
   height: auto;
-  max-width: 150px;
+  display: block;
 }
 
-
-.stuffs-container::before,
-.stuffs-container::after,
-.stuffs-container .mid-line-1 {
-  content: "";
+/* Vertical lines container */
+.vertical-lines {
   position: absolute;
-  width: 2px; /* Line thickness */
-  height: 100%;
   top: 0;
+  bottom: 0;
+  width: 100%;
+  pointer-events: none; /* Ensures lines don’t interfere with clicks */
+}
+
+/* Style for the dotted lines */
+.vertical-lines div {
+  position: absolute;
+  width: 2px;
+  height: 100%;
   background: repeating-linear-gradient(
     to bottom,
     white 0px,
-    white 2px,
-    transparent 2px,
-    transparent 6px
+    white 4px,
+    transparent 4px,
+    transparent 8px
   ); /* Dotted effect */
 }
 
-/* First vertical line (25% of the width) */
-.stuffs-container::before {
-  left: 36%;
-}
-
-/* Second vertical line (50% of the width) */
-.stuffs-container::after {
-  left: 52%;
-}
-
-/* Third vertical line (75% of the width) */
-.stuffs-container .mid-line-1 {
-  left: 68%;
-  position: absolute;
-}
+.vertical-lines .line-1 { left: 25%; }
+.vertical-lines .line-2 { left: 50%; }
+.vertical-lines .line-3 { left: 75%; }
