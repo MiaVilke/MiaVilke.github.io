@@ -658,6 +658,7 @@ border-style: 1.2px solid #cd3e053b;
   max-width: 150px;
 }
 
+
 .stuffs-container::before,
 .stuffs-container::after,
 .stuffs-container .mid-line-1,
@@ -676,17 +677,17 @@ border-style: 1.2px solid #cd3e053b;
   ); /* Creates the dotted effect */
 }
 
-/* First vertical line (1/4 width of container) */
+/* First vertical line (between 1st and 2nd column) */
 .stuffs-container::before {
   left: 25%;
 }
 
-/* Second vertical line (2/4 width of container, i.e., center) */
-.stuffs-container .mid-line-1 {
+/* Second vertical line (between 2nd and 3rd column) */
+.stuffs-container::after {
   left: 50%;
 }
 
-/* Third vertical line (3/4 width of container) */
-.stuffs-container .mid-line-2 {
+/* Third vertical line (between 3rd and 4th column) */
+.stuffs-container::after {
   left: 75%;
 }
