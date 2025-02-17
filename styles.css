@@ -640,7 +640,7 @@ border-style: 1.2px solid #cd3e053b;
   justify-content: flex-start;
   max-height: 600px; /* Wraps to second column after 800px */
   margin: auto auto auto 22%; /* Centers the container */
-  width:1000px;
+  width:900px;
   border:2px dotted white;
   margin-top:25px;
 
@@ -657,22 +657,29 @@ border-style: 1.2px solid #cd3e053b;
   max-width: 150px;
 }
 
-.stuffs-container::before {
-  content: "";
-  position: absolute;
-  width: 2px; /* Width of vertical line */
-  background-color: white; /* Line color */
-  top: 0;
-  bottom: 0;
-  left: 33.33%; /* Adjust for number of columns */
-}
-
+/* Dotted vertical lines between columns */
+.stuffs-container::before,
 .stuffs-container::after {
   content: "";
   position: absolute;
-  width: 2px; /* Width of vertical line */
-  background-color: white; /* Line color */
+  width: 2px; /* Line thickness */
   top: 0;
   bottom: 0;
-  left: 66.66%; /* Adjust for number of columns */
+  background: repeating-linear-gradient(
+    to bottom,
+    white 0px,
+    white 4px,
+    transparent 4px,
+    transparent 8px
+  ); /* Creates the dotted effect */
+}
+
+/* First vertical line (1/3 width of container) */
+.stuffs-container::before {
+  left: 33.33%;
+}
+
+/* Second vertical line (2/3 width of container) */
+.stuffs-container::after {
+  left: 66.66%;
 }
