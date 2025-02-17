@@ -679,7 +679,7 @@ border-style: 1.2px solid #cd3e053b;
 
 /* First vertical line (between 1st and 2nd column) */
 .stuffs-container::before {
-  left: 25%;
+  left: 30%;
 }
 
 /* Second vertical line (between 2nd and 3rd column) */
