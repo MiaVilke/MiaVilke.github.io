@@ -638,7 +638,7 @@ border-style: 1.2px solid #cd3e053b;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: flex-start;
-  max-height: 800px; /* Wraps to second column after 800px */
+  max-height: 1000px; /* Wraps to second column after 800px */
   margin: auto auto auto 32%; /* Centers the container */
   width:800px;
   border:2px dotted white;
