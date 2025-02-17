@@ -648,6 +648,8 @@ border-style: 1.2px solid #cd3e053b;
   flex: 1 1 calc(33.33% - 40px); /* Ensures three columns with gaps */
   display: flex;
   justify-content: center;
+  border: 2px dotted white; 
+
 }
 .stuffs-item img {
   height: auto;
