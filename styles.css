@@ -668,7 +668,7 @@ border-style: 1.2px solid #cd3e053b;
   background-color: dodgerblue;
   display: absolute;
   top: 50%;
-  left: 50%;
+  left: 50vw;
     border-right: 2px dotted white;
   }
 
