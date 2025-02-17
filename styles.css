@@ -678,16 +678,16 @@ border-style: 1.2px solid #cd3e053b;
 
 /* First vertical line (25% of the width) */
 .stuffs-container::before {
-  left: 34%;
+  left: 36%;
 }
 
 /* Second vertical line (50% of the width) */
 .stuffs-container::after {
-  left: 52%;
+  left: 51%;
 }
 
 /* Third vertical line (75% of the width) */
 .stuffs-container .mid-line-1 {
-  left: 84%;
+  left: 64%;
   position: absolute;
 }
