@@ -647,7 +647,7 @@ border-style: 1.2px solid #cd3e053b;
  
 }
 .stuffs-item {
-  flex-grow: 1 1 1 calc(20% - 40px);
+  flex-grow: 1 1 1 1;
   display: flex;
 
 }
