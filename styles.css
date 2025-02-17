@@ -661,6 +661,7 @@ border-style: 1.2px solid #cd3e053b;
 
 .wrapper{
   width:600px;
+  height:100%;
   background-color: #d4ba4776;
   display: grid;
   grid-template-columns: auto auto auto;
