@@ -683,11 +683,11 @@ border-style: 1.2px solid #cd3e053b;
 
 /* Second vertical line (50% of the width) */
 .stuffs-container::after {
-  left: 51%;
+  left: 52%;
 }
 
 /* Third vertical line (75% of the width) */
 .stuffs-container .mid-line-1 {
-  left: 64%;
+  left: 68%;
   position: absolute;
 }
