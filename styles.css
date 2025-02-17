@@ -658,25 +658,3 @@ border-style: 1.2px solid #cd3e053b;
 .stuffs-container:first-child {
   border-right: solid white 2px;
 }
-
-.wrapper{
-  width:600px;
-  height:100%;
-  background-color: #d4ba4776;
-  display: grid;
-  grid-template-columns: auto auto auto;
-  background-color: dodgerblue;
-  display: absolute;
-  top: 50%;
-  left: 50vw;
-    border-right: 2px dotted white;
-  }
-
-  
-  .wrappercol{
-    background-color: #ff0000;
-    border: 1px solid white;
-    padding: 10px;
-    font-size: 30px;
-    text-align: center;
-  }
