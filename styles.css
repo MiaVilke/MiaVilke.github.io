@@ -658,3 +658,8 @@ border-style: 1.2px solid #cd3e053b;
 .stuffs-container:first-child {
   border-right: solid white 2px;
 }
+
+.wrapper{
+  width:600px;
+  background-color: #d4ba4776;
+}
