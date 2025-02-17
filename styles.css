@@ -635,20 +635,20 @@ border-style: 1.2px solid #cd3e053b;
 
 .stuffs-container {
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
-  justify-content: center;
-  gap: 40px; /* Adds spacing between items */
-  max-width: 1200px; /* Adjust as needed */
+  justify-content: flex-start;
+  gap: 40px; /* Adds 10px gaps between photos */
+  max-height: 800px; /* Wraps to second column after 800px */
   margin: 50px auto; /* Centers the container */
-  border-right: 2px dotted white; 
+  column-gap: 50px;
+  width:900px;
 
  
 }
 .stuffs-item {
-  flex: 1 1 calc(33.33% - 40px); /* Ensures three columns with gaps */
+  flex-grow: 1 1 calc(33.33% - 40px);
   display: flex;
-  justify-content: center;
-  border-right: 2px dotted white; 
 
 }
 .stuffs-item img {
