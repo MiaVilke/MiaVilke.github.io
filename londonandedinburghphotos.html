@@ -1,6 +1,31 @@
 <!DOCTYPE html>
 <html>
     <style>
+
+
+        .europegrid-container {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            gap: 40px; /* Adds 10px gaps between photos */
+            max-height: 3000px; /* Wraps to second column after 800px */
+            margin: 50px auto; /* Centers the container */
+            column-gap: 50px;
+            width:900px;
+
+           
+        }
+        .europegrid-item {
+            flex-grow: 1;
+            display: flex;;
+
+        }
+        .europegrid-item img {
+            height: auto;
+            max-width: 375px;
+        }
+
     </style>
   <head>
     <title>londonandedinburgh</title>

@@ -633,7 +633,7 @@ border-style: 1.2px solid #cd3e053b;
 
 }
 
-.europegrid-container {
+.stuffs-container {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -646,12 +646,12 @@ border-style: 1.2px solid #cd3e053b;
 
  
 }
-.europegrid-item {
-  flex-grow: 1;
-  display: flex;;
-
+.stuffs-item {
+  flex: 1 1 calc(33.33% - 40px); /* Ensures three columns with gaps */
+  display: flex;
+  justify-content: center;
 }
-.europegrid-item img {
+.stuffs-item img {
   height: auto;
   max-width: 375px;
 }
