@@ -640,6 +640,7 @@ border-style: 1.2px solid #cd3e053b;
   gap: 40px; /* Adds spacing between items */
   max-width: 1200px; /* Adjust as needed */
   margin: 50px auto; /* Centers the container */
+  border-right: 2px dotted white; 
 
  
 }
