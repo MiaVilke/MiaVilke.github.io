@@ -653,3 +653,11 @@ border-style: 1.2px solid #cd3e053b;
   height: auto;
   max-width: 150px;
 }
+.europegrid-item:not(:nth-child(3n))::after {
+  content: "";
+  position: absolute;
+  right: -20px; /* Half of the gap (40px) */
+  top: 0;
+  height: 100%;
+  width: 2px;
+  background-color: white; /* Adjust color as needed */
