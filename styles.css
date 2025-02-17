@@ -642,6 +642,7 @@ border-style: 1.2px solid #cd3e053b;
   margin: auto auto auto 22%; /* Centers the container */
   width:800px;
   border:2px dotted white;
+  margin-top:25px;
 
  
 }
