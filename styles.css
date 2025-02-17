@@ -640,7 +640,7 @@ border-style: 1.2px solid #cd3e053b;
   gap: 40px; /* Adds spacing between items */
   max-width: 1200px; /* Adjust as needed */
   margin: 50px auto; /* Centers the container */
-  border-right: 2px dotted white; 
+  border: 2px dotted white; 
 
  
 }
@@ -652,13 +652,4 @@ border-style: 1.2px solid #cd3e053b;
 .stuffs-item img {
   height: auto;
   max-width: 150px;
-}
-.europegrid-item:not(:nth-child(3n))::after {
-  content: "";
-  position: absolute;
-  right: -20px; /* Half of the gap (40px) */
-  top: 0;
-  height: 100%;
-  width: 2px;
-  background-color: white; /* Adjust color as needed */
 }
