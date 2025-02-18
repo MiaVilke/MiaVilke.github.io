@@ -655,13 +655,17 @@ border-style: 1.2px solid #cd3e053b;
 a.stuffs-sub{
   font-family: 'Courier New', Courier, monospace;
   color:white;
+  margin-top:25px;
   text-decoration: none;
+  display:block;
 
 }
 a.stuffs-sub:visited{
   font-family: 'Courier New', Courier, monospace;
   color:white;
+  margin-top:15px;
   text-decoration: none;
+  display:block;
 
 }
 /* Vertical lines container */
