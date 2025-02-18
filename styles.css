@@ -646,8 +646,8 @@ border-style: 1.2px solid #cd3e053b;
 }
 
 /* Ensures images stay properly sized */
-.stuffs-item img {
-  width: 100%; /* Makes images fully responsive */
+.stuffs-item  {
+max-width:100px;
   height: auto;
   display: block;
 }
