@@ -371,7 +371,6 @@ a.sidebuttonone{
   font-size:30px;
   text-align:center;
   text-decoration:none;
-  margin-right: 20px;
 
 }
 
@@ -637,7 +636,7 @@ border-style: 1.2px solid #cd3e053b;
 .stuffs-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr); /* Creates 4 equal columns */
-  gap: 20px; /* Adjust spacing between images */
+  gap: 10px; /* Adjust spacing between images */
   width: 900px; /* Fixed width to prevent shifting */
   margin: auto;
   margin-top:20px;
