@@ -370,7 +370,8 @@ a.sidebuttonone{
   color:black;
   font-size:30px;
   text-align:center;
-  text-decoration:none
+  text-decoration:none;
+  margin-right: 20px;
 
 }
 
