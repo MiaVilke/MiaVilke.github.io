@@ -649,7 +649,7 @@ border-style: 1.2px solid #cd3e053b;
 .stuffs-item img {
   max-width: 100px; /* Makes images fully responsive */
   height: auto;
-  display: inline-block;
+  display: block;
   margin: auto;
 }
 
