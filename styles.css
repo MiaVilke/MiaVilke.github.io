@@ -650,6 +650,7 @@ border-style: 1.2px solid #cd3e053b;
   max-width: 100px; /* Makes images fully responsive */
   height: auto;
   display: block;
+  margin: auto;
 }
 
 /* Vertical lines container */
