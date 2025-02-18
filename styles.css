@@ -640,7 +640,8 @@ border-style: 1.2px solid #cd3e053b;
   width: 800px; /* Fixed width to prevent shifting */
   margin: auto;
   position: relative; /* Needed for absolute lines */
-  border: 2px dotted white;
+  border-left: 2px dotted white;
+  border-right: 2px dotted white;
   padding: 10px;
 }
 
@@ -668,9 +669,9 @@ border-style: 1.2px solid #cd3e053b;
   background: repeating-linear-gradient(
     to bottom,
     white 0px,
-    white 4px,
-    transparent 4px,
-    transparent 8px
+    white 2px,
+    transparent 2px,
+    transparent 6px
   ); /* Dotted effect */
 }
 
