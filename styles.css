@@ -656,11 +656,14 @@ a.stuffs-sub{
   font-family: 'Courier New', Courier, monospace;
   color:white;
   margin-top:15px;
+  text-decoration: none;
+
 }
 a.stuffs-sub:visited{
   font-family: 'Courier New', Courier, monospace;
   color:white;
   margin-top:15px;
+  text-decoration: none;
 
 }
 /* Vertical lines container */
