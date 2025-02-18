@@ -636,13 +636,13 @@ border-style: 1.2px solid #cd3e053b;
 .stuffs-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr); /* Creates 4 equal columns */
-  gap: 10px; /* Adjust spacing between images */
-  width: 800px; /* Fixed width to prevent shifting */
+  gap: 20px; /* Adjust spacing between images */
+  width: 900px; /* Fixed width to prevent shifting */
   margin: auto;
+  margin-top:20px;
   position: relative; /* Needed for absolute lines */
   border-left: 2px dotted white;
   border-right: 2px dotted white;
-  padding: 10px;
 }
 
 /* Ensures images stay properly sized */
