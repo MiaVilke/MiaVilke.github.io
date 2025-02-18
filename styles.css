@@ -652,7 +652,12 @@ border-style: 1.2px solid #cd3e053b;
   display: block;
   margin: auto;
 }
-
+.stuffs-sub{
+  font-family: 'Courier New', Courier, monospace;
+  color:white;
+  margin-top:15px;
+  
+}
 /* Vertical lines container */
 .vertical-lines {
   position: absolute;
