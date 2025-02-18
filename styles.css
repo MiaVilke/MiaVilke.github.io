@@ -647,7 +647,7 @@ border-style: 1.2px solid #cd3e053b;
 
 /* Ensures images stay properly sized */
 .stuffs-item img {
-  max-width: 100px; /* Makes images fully responsive */
+  max-width: 180px; /* Makes images fully responsive */
   height: auto;
   display: block;
   margin: auto;
