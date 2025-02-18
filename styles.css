@@ -669,9 +669,9 @@ border-style: 1.2px solid #cd3e053b;
   background: repeating-linear-gradient(
     to bottom,
     white 0px,
-    white 2px,
-    transparent 2px,
-    transparent 5px
+    white 1px,
+    transparent 1px,
+    transparent 4px
   ); /* Dotted effect */
 }
 
