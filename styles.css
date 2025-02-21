@@ -152,7 +152,7 @@ p {
 
 .entry-item{
   width:175px;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 20px;
   color: black;
   font-family: 'Courier New', monospace;
@@ -165,7 +165,7 @@ p {
 }
 .entry-library{
   width:175px;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 20px;
   color: black;
   font-family: 'Courier New', monospace;
@@ -176,7 +176,7 @@ p {
 }
 .entry-library2{
   width:175px;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 20px;
   color: black;
   font-family: 'Courier New', monospace;
