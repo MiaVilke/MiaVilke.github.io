@@ -652,6 +652,14 @@ border-style: 1.2px solid #cd3e053b;
   display: block;
   margin: auto;
 }
+
+.stuffs-item {
+  max-width: 180px; /* Makes images fully responsive */
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
 a.stuffs-sub{
   font-family: 'Courier New', Courier, monospace;
   color:white;
