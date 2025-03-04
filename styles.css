@@ -665,6 +665,7 @@ a.stuffs-sub{
   margin: 20px;
   text-decoration: none;
   display:block;
+  float:left;
 
 }
 a.stuffs-sub:visited{
@@ -673,6 +674,8 @@ a.stuffs-sub:visited{
   margin: 20px;
   text-decoration: none;
   display:block;
+  float:left;
+
 
 }
 /* Vertical lines container */
